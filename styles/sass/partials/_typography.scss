@@ -1,5 +1,5 @@
 // import fonts
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Monoton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Monoton&display=swap");
 
 // h1 - gabriel wright
 h1 {
@@ -34,14 +34,22 @@ p {
 
 // small button - Demo, View Source
 .sm-button {
-	@include setTypography($ff-secondary, $fw-regular, $fs-300);
+	@include setTypography($ff-secondary, $fw-bold, $fs-300);
 	color: $clr-black;
+	background-color: $clr-teal;
+	border-radius: 10px;
+	border: none;
+	padding: 0.5rem 0.5rem;
 }
 
 // large button - View Resume
 .lg-button {
-	@include setTypography($ff-secondary, $fw-regular, $fs-500);
+	@include setTypography($ff-secondary, $fw-bold, $fs-500);
 	color: $clr-black;
+	background-color: $clr-teal;
+	border-radius: 10px;
+	border: none;
+	padding: 0.5rem 0.5rem;
 }
 
 // form text inputs - name, email, message
@@ -63,4 +71,9 @@ textarea::placeholder {
 			color: $clr-white;
 		}
 	}
+}
+
+// icons
+i {
+	color: $clr-white;
 }

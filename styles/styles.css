@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Monoton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Monoton&display=swap");
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -301,16 +301,24 @@ p {
 
 .sm-button {
   font-family: "Comfortaa", cursive;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 0.8rem;
   color: #000000;
+  background-color: #8ecec6;
+  border-radius: 10px;
+  border: none;
+  padding: 0.5rem 0.5rem;
 }
 
 .lg-button {
   font-family: "Comfortaa", cursive;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 1.2rem;
   color: #000000;
+  background-color: #8ecec6;
+  border-radius: 10px;
+  border: none;
+  padding: 0.5rem 0.5rem;
 }
 
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
@@ -360,6 +368,10 @@ textarea::placeholder {
   color: #ffffff;
 }
 
+i {
+  color: #ffffff;
+}
+
 .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -402,4 +414,13 @@ textarea::placeholder {
 
 .skip-link:focus {
   left: 0;
+}
+
+body {
+  background-color: #000000;
+  background-image: url("../../../assets/bg-hex-dark.png");
+}
+
+a {
+  text-decoration: none;
 }
