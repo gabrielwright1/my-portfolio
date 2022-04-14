@@ -1,2 +1,66 @@
 // import fonts
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Monoton&display=swap");
+
+// h1 - gabriel wright
+h1 {
+	@include setTypography($ff-primary, $fw-regular, $fs-700);
+	color: $clr-white;
+}
+
+// h2 - my toolkit, recent projects, my journey
+h2 {
+	@include setTypography($ff-secondary, $fw-regular, $fs-600);
+	text-transform: uppercase;
+	color: $clr-white;
+}
+
+// h3 - I'm a front end, here are some, Hacker News, please feel free...
+h3 {
+	@include setTypography($ff-secondary, $fw-regular, $fs-500);
+	color: $clr-white;
+}
+
+// paragraphs - an app that fetches, a pixel-perfect replica
+p {
+	@include setTypography($ff-secondary, $fw-regular, $fs-300);
+	color: $clr-white;
+}
+
+// copyright - made with <3 by Gabriel Wright
+.copyright {
+	@include setTypography($ff-secondary, $fw-regular, $fs-400);
+	color: $clr-teal;
+}
+
+// small button - Demo, View Source
+.sm-button {
+	@include setTypography($ff-secondary, $fw-regular, $fs-300);
+	color: $clr-black;
+}
+
+// large button - View Resume
+.lg-button {
+	@include setTypography($ff-secondary, $fw-regular, $fs-500);
+	color: $clr-black;
+}
+
+// form text inputs - name, email, message
+textarea,
+[type="text"],
+[type="email"],
+input::placeholder,
+textarea::placeholder {
+	@include setTypography($ff-secondary, $fw-regular, $fs-300);
+	color: $clr-black;
+}
+
+// nav links
+.header-nav {
+	li {
+		a {
+			@include setTypography($ff-secondary, $fw-regular, $fs-500);
+			text-transform: uppercase;
+			color: $clr-white;
+		}
+	}
+}

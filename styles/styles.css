@@ -263,6 +263,103 @@ template {
   overflow: hidden;
 }
 
+h1 {
+  font-family: "Monoton", cursive;
+  font-weight: 400;
+  font-size: 2.95rem;
+  color: #ffffff;
+}
+
+h2 {
+  font-family: "Comfortaa", cursive;
+  font-weight: 400;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+h3 {
+  font-family: "Comfortaa", cursive;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+p {
+  font-family: "Comfortaa", cursive;
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #ffffff;
+}
+
+.copyright {
+  font-family: "Comfortaa", cursive;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #8ecec6;
+}
+
+.sm-button {
+  font-family: "Comfortaa", cursive;
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #000000;
+}
+
+.lg-button {
+  font-family: "Comfortaa", cursive;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #000000;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  font-family: "Comfortaa", cursive;
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #000000;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  font-family: "Comfortaa", cursive;
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #000000;
+}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  font-family: "Comfortaa", cursive;
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #000000;
+}
+
+input::-ms-input-placeholder, textarea::-ms-input-placeholder {
+  font-family: "Comfortaa", cursive;
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #000000;
+}
+
+textarea,
+[type=text],
+[type=email],
+input::placeholder,
+textarea::placeholder {
+  font-family: "Comfortaa", cursive;
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #000000;
+}
+
+.header-nav li a {
+  font-family: "Comfortaa", cursive;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
 .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
