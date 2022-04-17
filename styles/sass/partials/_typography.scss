@@ -14,7 +14,7 @@ h2 {
 	color: $clr-white;
 }
 
-// h3 - I'm a front end, here are some, Hacker News, please feel free...
+// h3 - I'm a front end, who am i here are some, Hacker News, please feel free
 h3 {
 	@include setTypography($ff-secondary, $fw-regular, $fs-500);
 	color: $clr-white;
@@ -73,7 +73,17 @@ textarea::placeholder {
 	}
 }
 
-// icons
+// tools icons
 i {
 	color: $clr-white;
+	img {
+		width: 15px;
+	}
+}
+
+.about {
+	li {
+		@include setTypography($ff-secondary, $fw-regular, $fs-300);
+		color: $clr-white;
+	}
 }

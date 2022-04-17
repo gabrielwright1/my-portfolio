@@ -371,6 +371,16 @@ textarea::placeholder {
 i {
   color: #ffffff;
 }
+i img {
+  width: 15px;
+}
+
+.about li {
+  font-family: "Comfortaa", cursive;
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #ffffff;
+}
 
 .wrapper {
   display: -webkit-box;
