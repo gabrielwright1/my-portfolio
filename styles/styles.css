@@ -447,6 +447,10 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .header-nav {
   margin: 3rem 0 0 0;
   top: 50px;
