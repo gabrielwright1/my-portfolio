@@ -1,0 +1,45 @@
+.toolkit-outer-container {
+	margin: 46px auto;
+	background-color: $clr-teal;
+	justify-content: space-around;
+	max-width: 911px;
+}
+.toolkit-inner-container {
+	background-color: rgba($clr-navy, 0.8);
+	border-radius: 10px;
+	margin: 33px 0;
+	width: 846px;
+	justify-content: flex-end;
+}
+.toolkit-text-container {
+	text-align: right;
+	width: 273px;
+	margin: 20px 0;
+	h2 {
+		margin: 0 0 18px 0;
+	}
+	h3 {
+		margin: 0;
+	}
+}
+
+.toolkit-icon-container {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+	max-width: 451.5px;
+	gap: 31px;
+	margin-left: 58px;
+	img {
+		width: 35px;
+	}
+	li:nth-of-type(1),
+	li:nth-of-type(2),
+	li:nth-of-type(3),
+	li:nth-of-type(4),
+	li:nth-of-type(5),
+	li:nth-of-type(6),
+	li:nth-of-type(7) {
+		margin: 5px 0 0 0;
+	}
+}
