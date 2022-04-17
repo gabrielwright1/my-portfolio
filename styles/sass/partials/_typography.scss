@@ -5,6 +5,7 @@
 h1 {
 	@include setTypography($ff-primary, $fw-regular, $fs-700);
 	color: $clr-white;
+	text-shadow: 0 4px 4px rgba($clr-pink, 0.5);
 }
 
 // h2 - my toolkit, recent projects, my journey
