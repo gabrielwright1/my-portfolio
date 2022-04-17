@@ -15,14 +15,35 @@
 	</head>
 	<body>
 		<header>
-			<nav class="header-nav">
-				<ul>
-					<li><a href="#about">About</a></li>
-					<li><a href="#projects">Projects</a></li>
-					<li><a href="#journey">Journey</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
-			</nav>
+			<div class="wrapper">
+				<nav class="header-nav">
+					<!-- desktop menu -->
+					<ul>
+						<li><a href="#about">About</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#journey">Journey</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+					<!-- mobile menu -->
+					<input type="checkbox" id="open-slide-out-menu" />
+					<label for="open-slide-out-menu">
+						<i class="fa-solid fa-bars"></i
+					></label>
+					<div class="slide-out-nav">
+						<div class="button-container">
+							<button id="toggle-btn">x</button>
+						</div>
+						<nav>
+							<ul class="main-menu">
+								<li><a href="#">About</a></li>
+								<li><a href="#">Projects</a></li>
+								<li><a href="#">Journey</a></li>
+								<li><a href="#">Contact</a></li>
+							</ul>
+						</nav>
+					</div>
+				</nav>
+			</div>
 			<img
 				src="./assets/headshot.png"
 				alt="a man with a flattop haircut and a collared shirt smiling"
