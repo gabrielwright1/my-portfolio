@@ -1,20 +1,11 @@
-.hero {
-	> .wrapper {
-		width: 100%;
-		justify-content: space-between;
-	}
-}
-
 .header-container {
 	flex-direction: column;
 }
 
 .hero-img-container {
 	position: relative;
-	top: -1rem;
 	width: 336px;
-	height: 396px;
-
+	height: 396.31px;
 	img {
 		position: relative;
 		z-index: 20;
@@ -24,7 +15,7 @@
 		content: "";
 		display: inline-block;
 		position: absolute;
-		top: -30px;
+		top: -35px;
 		background-color: $clr-teal;
 		height: 331.69px;
 		width: 331.69px;
@@ -35,6 +26,9 @@
 }
 
 .hero-text-container {
+	margin: 0;
+	margin-left: 58px;
+
 	h1 {
 		margin: 50px 0;
 	}
