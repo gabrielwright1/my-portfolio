@@ -1,0 +1,24 @@
+.hero {
+	> .wrapper {
+		width: 100%;
+		justify-content: space-between;
+	}
+}
+
+.header-container {
+	flex-direction: column;
+}
+
+.hero-img-container {
+	position: relative;
+	top: -3rem;
+}
+
+.hero-text-container {
+	h1 {
+		margin: 50px 0;
+	}
+	h3 {
+		margin: 0 0 50px 0;
+	}
+}

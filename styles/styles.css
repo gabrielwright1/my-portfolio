@@ -435,6 +435,16 @@ a {
   text-decoration: none;
 }
 
+.header-nav {
+  margin: 3rem 0 0 0;
+  top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
 .header-nav input[type=checkbox] {
   opacity: 0;
   position: absolute;
@@ -442,14 +452,17 @@ a {
 .header-nav input[type=checkbox]:checked ~ .slide-out-nav {
   right: 0;
 }
-.header-nav input[type=checkbox]:focus + label {
-  border: 1px dotted #ffffff;
-}
 .header-nav label {
   cursor: pointer;
-  position: fixed;
-  top: 10px;
-  right: 30px;
+  display: none;
+}
+.header-nav ul {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.5rem;
 }
 
 .slide-out-nav {
@@ -460,4 +473,39 @@ a {
   z-index: 20;
   -webkit-transition: 0.75s;
   transition: 0.75s;
+}
+.slide-out-nav .button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 1rem 1rem;
+}
+
+.hero > .wrapper {
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hero-img-container {
+  position: relative;
+  top: -3rem;
+}
+
+.hero-text-container h1 {
+  margin: 50px 0;
+}
+.hero-text-container h3 {
+  margin: 0 0 50px 0;
 }
