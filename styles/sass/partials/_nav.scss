@@ -1,0 +1,40 @@
+.header-nav {
+	margin: 3rem 0 0 0;
+	top: 50px;
+	display: flex;
+	justify-content: flex-end;
+	// navbar checkbox
+	input[type="checkbox"] {
+		opacity: 0;
+		position: absolute;
+		&:checked ~ .slide-out-nav {
+			right: 0;
+		}
+	}
+	// hamburger icon
+	label {
+		cursor: pointer;
+		display: none;
+	}
+	// nav container
+	ul {
+		margin: 0;
+		padding: 0;
+		display: flex;
+		gap: 1.5rem;
+	}
+}
+.slide-out-nav {
+	background-color: $clr-black;
+	position: fixed;
+	top: 0px;
+	right: -500px;
+	z-index: 20;
+	transition: 0.75s;
+	// slide out close button
+	.button-container {
+		display: flex;
+		justify-content: flex-end;
+		margin: 1rem 1rem;
+	}
+}
