@@ -274,3 +274,81 @@
 // ------------------------
 // CONTACT SECTION
 // ------------------------
+
+.contact-outer-container {
+	display: flex;
+	flex-direction: column;
+	h2 {
+		margin: 46px auto;
+		position: relative;
+		right: -103px;
+	}
+	h2::before {
+		content: "";
+		top: 15px;
+		left: -388px;
+		position: absolute;
+		display: inline-block;
+		height: 4px;
+		width: 326px;
+		background-color: $clr-pink;
+		border-radius: 10px;
+	}
+	h2::after {
+		content: "";
+		top: 15px;
+		left: 330px;
+		position: absolute;
+		display: inline-block;
+		height: 4px;
+		width: 125px;
+		background-color: $clr-pink;
+		border-radius: 10px;
+	}
+}
+.contact-inner-container {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.contact-text-container {
+	width: 300px;
+	h3 {
+		text-align: right;
+	}
+	ul {
+		display: flex;
+		gap: 1.5rem;
+		padding: 0;
+		justify-content: flex-end;
+		margin-top: 38px;
+	}
+	img {
+		width: 35px;
+	}
+}
+.contact-form {
+	margin-left: 65px;
+	width: 455.5px;
+}
+
+.contact-input-container {
+	display: flex;
+	flex-direction: column;
+	gap: 0.8rem;
+	[type="text"],
+	[type="email"],
+	textarea {
+		border-radius: 10px;
+		padding-left: 5px;
+		height: 40px;
+		border: none;
+	}
+	textarea {
+		padding-top: 10px;
+		height: 120px;
+	}
+	[type="submit"] {
+		width: 70px;
+	}
+}

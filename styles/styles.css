@@ -398,6 +398,11 @@ i img {
   color: #ffffff;
 }
 
+.contact-text-container a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
 .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -848,4 +853,102 @@ ul {
   position: relative;
   left: 38px;
   top: -20px;
+}
+
+.contact-outer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.contact-outer-container h2 {
+  margin: 46px auto;
+  position: relative;
+  right: -103px;
+}
+.contact-outer-container h2::before {
+  content: "";
+  top: 15px;
+  left: -388px;
+  position: absolute;
+  display: inline-block;
+  height: 4px;
+  width: 326px;
+  background-color: #ff00b8;
+  border-radius: 10px;
+}
+.contact-outer-container h2::after {
+  content: "";
+  top: 15px;
+  left: 330px;
+  position: absolute;
+  display: inline-block;
+  height: 4px;
+  width: 125px;
+  background-color: #ff00b8;
+  border-radius: 10px;
+}
+
+.contact-inner-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.contact-text-container {
+  width: 300px;
+}
+.contact-text-container h3 {
+  text-align: right;
+}
+.contact-text-container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.5rem;
+  padding: 0;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 38px;
+}
+.contact-text-container img {
+  width: 35px;
+}
+
+.contact-form {
+  margin-left: 65px;
+  width: 455.5px;
+}
+
+.contact-input-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0.8rem;
+}
+.contact-input-container [type=text],
+.contact-input-container [type=email],
+.contact-input-container textarea {
+  border-radius: 10px;
+  padding-left: 5px;
+  height: 40px;
+  border: none;
+}
+.contact-input-container textarea {
+  padding-top: 10px;
+  height: 120px;
+}
+.contact-input-container [type=submit] {
+  width: 70px;
 }

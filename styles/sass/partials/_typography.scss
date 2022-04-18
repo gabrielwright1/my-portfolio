@@ -93,3 +93,11 @@ i {
 		color: $clr-white;
 	}
 }
+
+// contact link
+.contact-text-container {
+	a {
+		color: $clr-white;
+		text-decoration: underline;
+	}
+}
