@@ -438,8 +438,7 @@ i img {
 body {
   background-color: #000000;
   background-image: url("../../../assets/bg-hex-dark.png");
-  background-size: contain;
-  background-repeat: repeat-y;
+  background-attachment: fixed;
 }
 
 a {
@@ -668,7 +667,23 @@ ul {
   list-style-type: disc;
 }
 
-.projects-outer-container {
+.project-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-color: #1d2226;
+  margin: 0 0 46px 0;
+  border-radius: 10px;
+}
+
+.project-outer-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -677,12 +692,12 @@ ul {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.projects-outer-container h2 {
+.project-outer-container h2 {
   margin: 46px auto;
   position: relative;
-  right: -115px;
+  right: -110px;
 }
-.projects-outer-container h2::before {
+.project-outer-container h2::before {
   content: "";
   top: 15px;
   left: -388px;
@@ -693,7 +708,7 @@ ul {
   background-color: #ff00b8;
   border-radius: 10px;
 }
-.projects-outer-container h2::after {
+.project-outer-container h2::after {
   content: "";
   top: 15px;
   left: 355px;
@@ -703,4 +718,30 @@ ul {
   width: 95px;
   background-color: #ff00b8;
   border-radius: 10px;
+}
+
+.project-text-container {
+  margin: auto 65px auto 58px;
+  max-width: 390px;
+}
+.project-text-container h3 {
+  text-decoration: underline;
+  margin: 0 0 10px 0;
+}
+.project-text-container p:nth-of-type(1) {
+  text-align: justify;
+  margin: 0 0 13px 0;
+}
+.project-text-container p:nth-of-type(2) {
+  margin: 0 0 calc(13px + 0.5rem) 0;
+}
+.project-text-container a {
+  margin: 0 10px 0 0;
+}
+
+.project-img-container {
+  width: 309.21px;
+  position: relative;
+  left: 38px;
+  top: -20px;
 }
