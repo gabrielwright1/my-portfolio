@@ -550,6 +550,20 @@ ul {
   margin: 0 0 calc(50px + 0.5rem) 0;
 }
 
+.copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.3rem;
+  margin: 20px auto 0 auto;
+  background-color: #000000;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  left: -36px;
+}
+
 .toolkit-outer-container {
   margin: 46px auto 0 auto;
   background-color: #80b9b2;
