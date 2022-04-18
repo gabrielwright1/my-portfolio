@@ -10,7 +10,7 @@ h1 {
 
 // h2 - my toolkit, recent projects, my journey
 h2 {
-	@include setTypography($ff-secondary, $fw-regular, $fs-600);
+	@include setTypography($ff-secondary, $fw-regular, $fs-650);
 	text-transform: uppercase;
 	color: $clr-white;
 }
@@ -19,6 +19,11 @@ h2 {
 h3 {
 	@include setTypography($ff-secondary, $fw-regular, $fs-500);
 	color: $clr-white;
+}
+.toolkit-text-container {
+	h3 {
+		@include setTypography($ff-secondary, $fw-regular, $fs-550);
+	}
 }
 
 // paragraphs - an app that fetches, a pixel-perfect replica
