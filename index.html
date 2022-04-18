@@ -45,7 +45,7 @@
 				</nav>
 				<!-- hero section -->
 				<section id="hero" class="hero">
-					<div class="wrapper">
+					<div class="hero-outer-container wrapper">
 						<div class="hero-img-container">
 							<img
 								src="./assets/headshot.png"
@@ -312,111 +312,125 @@
 			</section>
 			<!-- journey section -->
 			<section id="journey" class="journey">
-				<h2>My Journey</h2>
-				<!-- Medium Article - 100DaysOfCode -->
-				<div class="project">
-					<img
-						src="./assets/medium-posts.svg"
-						alt="a macbook and mobile phone showing a live demo of a Medium article written about #100DaysOfCode"
-					/>
-					<div class="card">
-						<h3>How #100DaysOfCode led to a change...</h3>
-						<p>
-							In this Medium article, I break down my journey from
-							process engineering into web development and share
-							how learning a little bit every day made this
-							possible.
-						</p>
-						<a class="sm-button" href="#">View Article</a>
+				<div class="journey-outer-container wrapper">
+					<h2>My Journey</h2>
+					<!-- Medium Article - 100DaysOfCode -->
+					<div class="journey-container">
+						<div class="journey-img-container">
+							<img
+								src="./assets/medium-posts.svg"
+								alt="a macbook and mobile phone showing a live demo of a Medium article written about #100DaysOfCode"
+							/>
+						</div>
+						<div class="journey-text-container">
+							<h3>How #100DaysOfCode led to a change</h3>
+							<p>
+								In this Medium article, I break down my journey
+								from process engineering into web development
+								and share how learning a little bit every day
+								made this possible.
+							</p>
+							<a class="sm-button" href="#">View Article</a>
+						</div>
 					</div>
-				</div>
-				<!-- Reaching #800DaysOfCode milestone -->
-				<div class="project">
-					<img
-						src="./assets/linkedin-posts.svg"
-						alt="a macbook and mobile phone showing a live demo of a LinkedIn thread of posts about #800DaysOfCode"
-					/>
-					<div class="card">
-						<h3>Reaching #800DaysOfCode milestone</h3>
-						<p>
-							Every day, I document my technical learnings and I
-							share tutorials, resources, and podcasts that have
-							helped to shape my self-directed programming
-							development plan.
-						</p>
-						<a class="sm-button" href="#">View Thread</a>
+					<!-- Reaching #800DaysOfCode milestone -->
+					<div class="journey-container">
+						<div class="journey-img-container">
+							<img
+								src="./assets/linkedin-posts.svg"
+								alt="a macbook and mobile phone showing a live demo of a LinkedIn thread of posts about #800DaysOfCode"
+							/>
+						</div>
+						<div class="journey-text-container">
+							<h3>Reaching #800DaysOfCode milestone</h3>
+							<p>
+								Every day, I document my technical learnings and
+								I share tutorials, resources, and podcasts that
+								have helped to shape my self-directed
+								programming development plan.
+							</p>
+							<a class="sm-button" href="#">View Thread</a>
+						</div>
 					</div>
 				</div>
 			</section>
 			<section id="contact" class="contact">
-				<h2>Let's Connect</h2>
-				<h3>
-					Please feel free to reach out to me by booking a time with
-					me in my calendly.
-				</h3>
-				<ul>
-					<li>
-						<i
-							><img
-								src="./assets/linkedin.svg"
-								alt="LinkedIn icon provided by FontAwesome"
-						/></i>
-					</li>
-					<li>
-						<i
-							><img
-								src="./assets/mail.svg"
-								alt="Mail icon provided by FontAwesome"
-						/></i>
-					</li>
-					<li>
-						<i
-							><img
-								src="./assets/twitter.svg"
-								alt="Twitter icon provided by FontAwesome"
-						/></i>
-					</li>
-					<li>
-						<i
-							><img
-								src="./assets/github.svg"
-								alt="GitHub icon provided by FontAwesome"
-						/></i>
-					</li>
-				</ul>
-				<form action="">
-					<div class="input-wrapper">
-						<label for="name" class="sr-only"
-							>Please enter your name</label
-						>
-						<input
-							type="text"
-							name="name"
-							id="name"
-							placeholder="Name"
-						/>
-						<label for="email" class="sr-only"
-							>Please enter your email</label
-						>
-						<input
-							type="email"
-							name="email"
-							id="email"
-							placeholder="Email"
-						/>
-						<label for="message" class="sr-only"
-							>Please enter your message</label
-						>
-						<textarea
-							name="message"
-							id="message"
-							cols="30"
-							rows="10"
-							placeholder="Message"
-						></textarea>
-						<input type="submit" value="Send" class="sm-button" />
+				<div class="contact-outer-container wrapper">
+					<h2>Let's Connect</h2>
+					<div class="contact-text-container">
+						<h3>
+							Please feel free to reach out to me by booking a
+							time with me in my calendly.
+						</h3>
+						<ul>
+							<li>
+								<i
+									><img
+										src="./assets/linkedin.svg"
+										alt="LinkedIn icon provided by FontAwesome"
+								/></i>
+							</li>
+							<li>
+								<i
+									><img
+										src="./assets/mail.svg"
+										alt="Mail icon provided by FontAwesome"
+								/></i>
+							</li>
+							<li>
+								<i
+									><img
+										src="./assets/twitter.svg"
+										alt="Twitter icon provided by FontAwesome"
+								/></i>
+							</li>
+							<li>
+								<i
+									><img
+										src="./assets/github.svg"
+										alt="GitHub icon provided by FontAwesome"
+								/></i>
+							</li>
+						</ul>
 					</div>
-				</form>
+					<form action="">
+						<div class="input-wrapper">
+							<label for="name" class="sr-only"
+								>Please enter your name</label
+							>
+							<input
+								type="text"
+								name="name"
+								id="name"
+								placeholder="Name"
+							/>
+							<label for="email" class="sr-only"
+								>Please enter your email</label
+							>
+							<input
+								type="email"
+								name="email"
+								id="email"
+								placeholder="Email"
+							/>
+							<label for="message" class="sr-only"
+								>Please enter your message</label
+							>
+							<textarea
+								name="message"
+								id="message"
+								cols="30"
+								rows="10"
+								placeholder="Message"
+							></textarea>
+							<input
+								type="submit"
+								value="Send"
+								class="sm-button"
+							/>
+						</div>
+					</form>
+				</div>
 			</section>
 		</main>
 		<footer>
