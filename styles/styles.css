@@ -541,7 +541,7 @@ ul {
 }
 
 .toolkit-outer-container {
-  margin: 46px auto;
+  margin: 46px auto 0 auto;
   background-color: #80b9b2;
   -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -592,4 +592,115 @@ ul {
 .toolkit-icon-container li:nth-of-type(6),
 .toolkit-icon-container li:nth-of-type(7) {
   margin: 5px 0 0 0;
+}
+
+.about-outer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.about-outer-container h2 {
+  margin: 46px auto;
+  position: relative;
+  right: -50px;
+}
+.about-outer-container h2::before {
+  content: "";
+  top: 15px;
+  left: -388px;
+  position: absolute;
+  display: inline-block;
+  height: 4px;
+  width: 328px;
+  background-color: #ff00b8;
+  border-radius: 10px;
+}
+.about-outer-container h2::after {
+  content: "";
+  top: 15px;
+  left: 225px;
+  position: absolute;
+  display: inline-block;
+  height: 4px;
+  width: 228px;
+  background-color: #ff00b8;
+  border-radius: 10px;
+}
+
+.about-inner-container {
+  background-color: #1d2226;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.about-img-container {
+  padding: 0;
+}
+.about-img-container li {
+  margin: 35px 0;
+}
+.about-img-container img {
+  -webkit-filter: drop-shadow(4px 0 0 #ff00b8);
+          filter: drop-shadow(4px 0 0 #ff00b8);
+}
+
+.about-text-container {
+  max-width: 440.5px;
+  margin-top: 40px;
+  margin-left: 58px;
+  margin-right: 15.5px;
+  text-align: justify;
+}
+.about-text-container ul {
+  list-style-type: disc;
+}
+
+.projects-outer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.projects-outer-container h2 {
+  margin: 46px auto;
+  position: relative;
+  right: -115px;
+}
+.projects-outer-container h2::before {
+  content: "";
+  top: 15px;
+  left: -388px;
+  position: absolute;
+  display: inline-block;
+  height: 4px;
+  width: 326px;
+  background-color: #ff00b8;
+  border-radius: 10px;
+}
+.projects-outer-container h2::after {
+  content: "";
+  top: 15px;
+  left: 355px;
+  position: absolute;
+  display: inline-block;
+  height: 4px;
+  width: 95px;
+  background-color: #ff00b8;
+  border-radius: 10px;
 }
