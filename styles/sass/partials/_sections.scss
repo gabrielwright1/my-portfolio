@@ -1,5 +1,8 @@
+// ------------------------
+// TOOLKIT SECTION
+// ------------------------
 .toolkit-outer-container {
-	margin: 46px auto;
+	margin: 46px auto 0 auto;
 	background-color: $clr-teal;
 	justify-content: space-around;
 	max-width: 911px;
@@ -43,12 +46,39 @@
 		margin: 5px 0 0 0;
 	}
 }
+// ------------------------
+// ABOUT SECTION
+// ------------------------
 
 .about-outer-container {
 	display: flex;
 	flex-direction: column;
 	h2 {
-		margin: 0 auto 46px auto;
+		margin: 46px auto;
+		position: relative;
+		right: -50px;
+	}
+	h2::before {
+		content: "";
+		top: 15px;
+		left: -388px;
+		position: absolute;
+		display: inline-block;
+		height: 4px;
+		width: 328px;
+		background-color: $clr-pink;
+		border-radius: 10px;
+	}
+	h2::after {
+		content: "";
+		top: 15px;
+		left: 225px;
+		position: absolute;
+		display: inline-block;
+		height: 4px;
+		width: 228px;
+		background-color: $clr-pink;
+		border-radius: 10px;
 	}
 }
 
@@ -77,5 +107,41 @@
 	text-align: justify;
 	ul {
 		list-style-type: disc;
+	}
+}
+
+// ------------------------
+// PROJECT SECTION
+// ------------------------
+
+.projects-outer-container {
+	display: flex;
+	flex-direction: column;
+	h2 {
+		margin: 46px auto;
+		position: relative;
+		right: -115px;
+	}
+	h2::before {
+		content: "";
+		top: 15px;
+		left: -388px;
+		position: absolute;
+		display: inline-block;
+		height: 4px;
+		width: 326px;
+		background-color: $clr-pink;
+		border-radius: 10px;
+	}
+	h2::after {
+		content: "";
+		top: 15px;
+		left: 355px;
+		position: absolute;
+		display: inline-block;
+		height: 4px;
+		width: 95px;
+		background-color: $clr-pink;
+		border-radius: 10px;
 	}
 }
