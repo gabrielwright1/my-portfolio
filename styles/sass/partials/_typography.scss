@@ -1,0 +1,103 @@
+// import fonts
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Monoton&display=swap");
+
+// h1 - gabriel wright
+h1 {
+	@include setTypography($ff-primary, $fw-regular, $fs-700);
+	color: $clr-white;
+	text-shadow: 0 4px 4px rgba($clr-pink, 0.5);
+}
+
+// h2 - my toolkit, recent projects, my journey
+h2 {
+	@include setTypography($ff-secondary, $fw-regular, $fs-650);
+	text-transform: uppercase;
+	color: $clr-white;
+}
+
+// h3 - I'm a front end, who am i here are some, Hacker News, please feel free
+h3 {
+	@include setTypography($ff-secondary, $fw-regular, $fs-500);
+	color: $clr-white;
+}
+.toolkit-text-container {
+	h3 {
+		@include setTypography($ff-secondary, $fw-regular, $fs-550);
+	}
+}
+
+// paragraphs - an app that fetches, a pixel-perfect replica
+p {
+	@include setTypography($ff-secondary, $fw-regular, $fs-300);
+	color: $clr-white;
+}
+
+// copyright - made with <3 by Gabriel Wright
+.copyright {
+	@include setTypography($ff-secondary, $fw-regular, $fs-400);
+	color: $clr-teal;
+}
+
+// small button - Demo, View Source
+.sm-button {
+	@include setTypography($ff-secondary, $fw-bold, $fs-300);
+	color: $clr-black;
+	background-color: $clr-teal;
+	border-radius: 10px;
+	border: none;
+	padding: 0.5rem 0.5rem;
+}
+
+// large button - View Resume
+.lg-button {
+	@include setTypography($ff-secondary, $fw-bold, $fs-500);
+	color: $clr-black;
+	background-color: $clr-teal;
+	border-radius: 10px;
+	border: none;
+	padding: 0.5rem 0.5rem;
+}
+
+// form text inputs - name, email, message
+textarea,
+[type="text"],
+[type="email"],
+input::placeholder,
+textarea::placeholder {
+	@include setTypography($ff-secondary, $fw-regular, $fs-300);
+	color: $clr-black;
+}
+
+// nav links
+.header-nav {
+	li {
+		a {
+			@include setTypography($ff-secondary, $fw-regular, $fs-500);
+			text-transform: uppercase;
+			color: $clr-white;
+		}
+	}
+}
+
+// tools icons
+i {
+	color: $clr-white;
+	img {
+		width: 15px;
+	}
+}
+
+.about {
+	li {
+		@include setTypography($ff-secondary, $fw-regular, $fs-300);
+		color: $clr-white;
+	}
+}
+
+// contact link
+.contact-text-container {
+	a {
+		color: $clr-white;
+		text-decoration: underline;
+	}
+}
