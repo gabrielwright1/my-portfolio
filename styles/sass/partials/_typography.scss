@@ -20,16 +20,27 @@ h3 {
 	@include setTypography($ff-secondary, $fw-regular, $fs-500);
 	color: $clr-white;
 }
-.toolkit-text-container {
-	h3 {
-		@include setTypography($ff-secondary, $fw-regular, $fs-550);
-	}
-}
 
 // paragraphs - an app that fetches, a pixel-perfect replica
 p {
 	@include setTypography($ff-secondary, $fw-regular, $fs-300);
 	color: $clr-white;
+}
+
+// modal
+.modal {
+	h2 {
+		@include setTypography($ff-secondary, $fw-bold, $fs-650);
+	}
+	a {
+		@include setTypography($ff-secondary, $fw-bold, $fs-550);
+		text-transform: uppercase;
+		color: $clr-pink;
+	}
+	p {
+		@include setTypography($ff-secondary, $fw-regular, $fs-550);
+		text-align: justify;
+	}
 }
 
 // copyright - made with <3 by Gabriel Wright
@@ -84,6 +95,12 @@ textarea::placeholder {
 			text-transform: uppercase;
 			color: $clr-white;
 		}
+	}
+}
+// toolkit
+.toolkit-text-container {
+	h3 {
+		@include setTypography($ff-secondary, $fw-regular, $fs-500);
 	}
 }
 
