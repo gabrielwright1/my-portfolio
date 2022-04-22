@@ -345,6 +345,19 @@ p {
   -webkit-filter: drop-shadow(4px 4px 0 #ff00b8);
           filter: drop-shadow(4px 4px 0 #ff00b8);
 }
+.sm-button:hover {
+  position: relative;
+  top: 4px;
+  left: 4px;
+  -webkit-filter: drop-shadow(0 0 0 #ff00b8);
+          filter: drop-shadow(0 0 0 #ff00b8);
+  -webkit-box-shadow: 0 0 15px #1d2226, 0 0 25px rgba(255, 255, 255, 0.25), 0 0 30px rgba(255, 0, 184, 0.55);
+          box-shadow: 0 0 15px #1d2226, 0 0 25px rgba(255, 255, 255, 0.25), 0 0 30px rgba(255, 0, 184, 0.55);
+  -webkit-transition: -webkit-box-shadow 0.65s ease-in-out;
+  transition: -webkit-box-shadow 0.65s ease-in-out;
+  transition: box-shadow 0.65s ease-in-out;
+  transition: box-shadow 0.65s ease-in-out, -webkit-box-shadow 0.65s ease-in-out;
+}
 
 .lg-button {
   font-family: "Comfortaa", cursive;
@@ -358,6 +371,19 @@ p {
   text-transform: uppercase;
   -webkit-filter: drop-shadow(4px 4px 0 #ff00b8);
           filter: drop-shadow(4px 4px 0 #ff00b8);
+}
+.lg-button:hover {
+  position: relative;
+  top: 4px;
+  left: 4px;
+  -webkit-filter: drop-shadow(0 0 0 #ff00b8);
+          filter: drop-shadow(0 0 0 #ff00b8);
+  -webkit-box-shadow: 0 0 15px #1d2226, 0 0 30px rgba(255, 255, 255, 0.25), 0 0 35px rgba(255, 0, 184, 0.55);
+          box-shadow: 0 0 15px #1d2226, 0 0 30px rgba(255, 255, 255, 0.25), 0 0 35px rgba(255, 0, 184, 0.55);
+  -webkit-transition: -webkit-box-shadow 0.65s ease-in-out;
+  transition: -webkit-box-shadow 0.65s ease-in-out;
+  transition: box-shadow 0.65s ease-in-out;
+  transition: box-shadow 0.65s ease-in-out, -webkit-box-shadow 0.65s ease-in-out;
 }
 
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
@@ -409,6 +435,9 @@ textarea::placeholder {
   font-size: 1.2rem;
   text-transform: uppercase;
   color: #ffffff;
+}
+.header-nav li a:hover {
+  color: #ff00b8;
 }
 
 .toolkit-text-container h3 {
