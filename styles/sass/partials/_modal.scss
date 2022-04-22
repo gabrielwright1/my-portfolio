@@ -34,12 +34,13 @@
 	animation-duration: 0.4s;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
+	height: 25rem;
 }
 
 .modal-header {
 	display: flex;
 	justify-content: space-between;
-	padding: 2px 35px;
+	padding: 0 35px;
 	background-color: $clr-dark-pink;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
@@ -50,17 +51,17 @@
 }
 
 .modal-body {
-	padding: 2px 35px;
-	height: 35vh;
+	height: 100%;
+	padding: 0 35px;
 	p {
-		margin: 30px 0;
+		margin: 35px 0;
 	}
 }
 
 /* The Close Button */
 .close {
 	color: $clr-white;
-	font-size: 60px;
+	font-size: 55px;
 	margin: auto 0;
 	font-weight: bold;
 }

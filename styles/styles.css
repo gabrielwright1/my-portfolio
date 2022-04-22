@@ -314,6 +314,10 @@ p {
   text-transform: uppercase;
   color: #ff00b8;
 }
+.modal a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
 .modal p {
   font-family: "Comfortaa", cursive;
   font-weight: 400;
@@ -583,6 +587,7 @@ ul {
   animation-duration: 0.4s;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  height: 25rem;
 }
 
 .modal-header {
@@ -592,7 +597,7 @@ ul {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 2px 35px;
+  padding: 0 35px;
   background-color: #a60078;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -603,17 +608,17 @@ ul {
 }
 
 .modal-body {
-  padding: 2px 35px;
-  height: 35vh;
+  height: 100%;
+  padding: 0 35px;
 }
 .modal-body p {
-  margin: 30px 0;
+  margin: 35px 0;
 }
 
 /* The Close Button */
 .close {
   color: #ffffff;
-  font-size: 60px;
+  font-size: 55px;
   margin: auto 0;
   font-weight: bold;
 }

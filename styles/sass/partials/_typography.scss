@@ -36,6 +36,10 @@ p {
 		@include setTypography($ff-secondary, $fw-bold, $fs-550);
 		text-transform: uppercase;
 		color: $clr-pink;
+		&:hover {
+			color: $clr-white;
+			text-decoration: underline;
+		}
 	}
 	p {
 		@include setTypography($ff-secondary, $fw-regular, $fs-550);
