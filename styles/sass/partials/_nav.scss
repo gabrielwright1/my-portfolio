@@ -13,6 +13,9 @@
 			right: 0;
 		}
 	}
+	i {
+		transform: scale(2, 1.5);
+	}
 	// hamburger icon
 	label {
 		cursor: pointer;
@@ -28,10 +31,15 @@
 }
 .slide-out-nav {
 	background-color: $clr-black;
+	width: 12rem;
+	height: 18rem;
+	padding: 0 0 0 2rem;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
 	position: fixed;
 	top: 0px;
-	right: -500px;
-	z-index: 20;
+	right: -300px;
+	z-index: 30;
 	transition: 0.75s;
 	// slide out close button
 	.button-container {
@@ -39,6 +47,7 @@
 		justify-content: flex-end;
 		margin: 1rem 1rem;
 	}
+	// slide out menu options
 	.main-menu {
 		display: flex;
 		flex-direction: column;

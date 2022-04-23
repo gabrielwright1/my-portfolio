@@ -438,9 +438,24 @@ textarea::placeholder {
 }
 .header-nav a:hover, .header-nav a:focus {
   color: #ff00b8;
-  text-shadow: 0 0 15px #1d2226, 0 0 30px rgba(255, 255, 255, 0.25), 0 0 35px rgba(255, 0, 184, 0.9);
-  -webkit-transition: text-shadow 0.65s ease-in;
-  transition: text-shadow 0.65s ease-in;
+  text-shadow: 0 0 15px #ff00b8;
+  -webkit-transition: text-shadow 0.65s ease-in-out;
+  transition: text-shadow 0.65s ease-in-out;
+}
+
+.slide-out-nav button {
+  background-color: #000000;
+  border: none;
+  color: #ffffff;
+  font-size: 40px;
+  position: relative;
+  right: 5px;
+}
+.slide-out-nav button:hover, .slide-out-nav button:focus {
+  color: #ff00b8;
+  text-shadow: 0 0 10px #ff00b8;
+  -webkit-transition: text-shadow 0.65s ease-in-out;
+  transition: text-shadow 0.65s ease-in-out;
 }
 
 .toolkit-text-container h3 {
@@ -544,6 +559,10 @@ ul {
 .header-nav input[type=checkbox]:checked ~ .slide-out-nav {
   right: 0;
 }
+.header-nav i {
+  -webkit-transform: scale(2, 1.5);
+          transform: scale(2, 1.5);
+}
 .header-nav label {
   cursor: pointer;
   display: none;
@@ -559,10 +578,15 @@ ul {
 
 .slide-out-nav {
   background-color: #000000;
+  width: 12rem;
+  height: 18rem;
+  padding: 0 0 0 2rem;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
   position: fixed;
   top: 0px;
-  right: -500px;
-  z-index: 20;
+  right: -300px;
+  z-index: 30;
   -webkit-transition: 0.75s;
   transition: 0.75s;
 }
