@@ -537,7 +537,9 @@ ul {
 }
 .header-nav input[type=checkbox] {
   opacity: 0;
-  position: absolute;
+  position: fixed;
+  top: 30px;
+  right: 30px;
 }
 .header-nav input[type=checkbox]:checked ~ .slide-out-nav {
   right: 0;
@@ -572,6 +574,15 @@ ul {
       -ms-flex-pack: end;
           justify-content: flex-end;
   margin: 1rem 1rem;
+}
+.slide-out-nav .main-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 /* The Modal (background) */
@@ -1227,4 +1238,16 @@ ul {
 }
 .contact-input-container [type=submit] {
   width: 70px;
+}
+
+@media (max-width: 911px) {
+  .header-nav .desktop-nav {
+    display: none;
+  }
+  .header-nav label {
+    display: block;
+    position: fixed;
+    top: 30px;
+    right: 30px;
+  }
 }

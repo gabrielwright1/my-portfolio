@@ -6,7 +6,9 @@
 	// navbar checkbox
 	input[type="checkbox"] {
 		opacity: 0;
-		position: absolute;
+		position: fixed;
+		top: 30px;
+		right: 30px;
 		&:checked ~ .slide-out-nav {
 			right: 0;
 		}
@@ -36,5 +38,9 @@
 		display: flex;
 		justify-content: flex-end;
 		margin: 1rem 1rem;
+	}
+	.main-menu {
+		display: flex;
+		flex-direction: column;
 	}
 }
