@@ -32,18 +32,18 @@ p {
 	h2 {
 		@include setTypography($ff-secondary, $fw-bold, $fs-650);
 	}
+	p {
+		@include setTypography($ff-secondary, $fw-regular, $fs-500);
+		text-align: justify;
+	}
 	a {
-		@include setTypography($ff-secondary, $fw-bold, $fs-550);
+		@include setTypography($ff-secondary, $fw-bold, $fs-500);
 		text-transform: uppercase;
 		color: $clr-pink;
 		&:hover {
 			color: $clr-white;
 			text-decoration: underline;
 		}
-	}
-	p {
-		@include setTypography($ff-secondary, $fw-regular, $fs-550);
-		text-align: justify;
 	}
 }
 
@@ -111,14 +111,15 @@ textarea::placeholder {
 
 // nav links
 .header-nav {
-	li {
-		a {
-			@include setTypography($ff-secondary, $fw-regular, $fs-500);
-			text-transform: uppercase;
-			color: $clr-white;
-			&:hover {
-				color: $clr-pink;
-			}
+	a {
+		@include setTypography($ff-secondary, $fw-regular, $fs-500);
+		text-transform: uppercase;
+		color: $clr-white;
+		&:hover {
+			color: $clr-pink;
+			text-shadow: 0 0 15px $clr-navy, 0 0 30px rgba($clr-white, 0.25),
+				0 0 35px rgba($clr-pink, 0.9);
+			transition: text-shadow 0.65s ease-in;
 		}
 	}
 }

@@ -307,22 +307,22 @@ p {
   font-weight: 700;
   font-size: 2rem;
 }
+.modal p {
+  font-family: "Comfortaa", cursive;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-align: justify;
+}
 .modal a {
   font-family: "Comfortaa", cursive;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
   color: #ff00b8;
 }
 .modal a:hover {
   color: #ffffff;
   text-decoration: underline;
-}
-.modal p {
-  font-family: "Comfortaa", cursive;
-  font-weight: 400;
-  font-size: 1.5rem;
-  text-align: justify;
 }
 
 .copyright {
@@ -429,15 +429,18 @@ textarea::placeholder {
   cursor: pointer;
 }
 
-.header-nav li a {
+.header-nav a {
   font-family: "Comfortaa", cursive;
   font-weight: 400;
   font-size: 1.2rem;
   text-transform: uppercase;
   color: #ffffff;
 }
-.header-nav li a:hover {
+.header-nav a:hover {
   color: #ff00b8;
+  text-shadow: 0 0 15px #1d2226, 0 0 30px rgba(255, 255, 255, 0.25), 0 0 35px rgba(255, 0, 184, 0.9);
+  -webkit-transition: text-shadow 0.65s ease-in;
+  transition: text-shadow 0.65s ease-in;
 }
 
 .toolkit-text-container h3 {
@@ -616,7 +619,7 @@ ul {
   animation-duration: 0.4s;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  height: 25rem;
+  height: 20rem;
 }
 
 .modal-header {
