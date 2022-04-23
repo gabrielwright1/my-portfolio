@@ -1,27 +1,57 @@
-// Portrait tablet and small desktops
 @media (max-width: 911px) {
+	// ------------------------
+	// UTILITY
+	// ------------------------
+	.mobile {
+		display: block;
+	}
+	.desktop {
+		display: none;
+	}
+	.mobile-wrapper {
+		max-width: 336px;
+	}
+	// ------------------------
+	// NAVIGATION
+	// ------------------------
+
 	.header-nav {
-		.desktop-nav {
-			display: none;
-		}
-		// hamburger icon
+		// show hamburger icon
 		label {
 			display: block;
 			position: fixed;
 			top: 30px;
 			right: 30px;
 		}
+		.desktop {
+			display: none;
+		}
+	}
+	// ------------------------
+	// HEADER
+	// ------------------------
+
+	.hero-img-container {
+		margin: 0 auto;
+	}
+	.hero-text-container {
+		display: flex;
+		flex-direction: column;
+		margin: 0 auto;
+		h1 {
+			margin: 30px auto 70px auto;
+			text-align: center;
+			@include setTypography($ff-primary, $fw-regular, $fs-800, $lh-200);
+		}
+		h3 {
+			margin: 40px 0;
+			text-align: center;
+			@include setTypography($ff-secondary, $fw-regular, $fs-550);
+		}
+		a {
+			text-align: center;
+			width: 95%;
+			margin: 0 auto;
+		}
 	}
 }
-
-// // Landscape phone to portrait tablet
-// @media (max-width: 768px) {
-// }
-
-// // Landscape phones and down
-// @media (max-width: 480px) {
-// }
-
-// // Small phones
-// @media (max-width: 320px) {
-// }

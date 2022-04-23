@@ -135,6 +135,7 @@ textarea::placeholder {
 		font-size: 40px;
 		position: relative;
 		right: 5px;
+		cursor: pointer;
 		&:hover,
 		&:focus {
 			color: $clr-pink;

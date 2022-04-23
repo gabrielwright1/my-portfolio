@@ -18,7 +18,7 @@
 			<div class="header-container wrapper">
 				<nav class="header-nav">
 					<!-- desktop menu -->
-					<ul class="desktop-nav">
+					<ul class="desktop">
 						<li><a href="#about">About</a></li>
 						<li><a href="#projects">Projects</a></li>
 						<li><a href="#journey">Journey</a></li>
@@ -46,19 +46,32 @@
 				<!-- hero section -->
 				<section id="hero" class="hero">
 					<div class="hero-outer-container wrapper">
-						<div class="hero-img-container">
+						<div class="hero-img-container desktop">
 							<img
 								src="./assets/headshot.png"
 								alt="a man with a flattop haircut and a collared shirt smiling"
 							/>
 						</div>
-						<div class="hero-text-container">
+						<div class="hero-text-container mobile-wrapper">
 							<h1>Gabriel Wright</h1>
-							<h3>
+							<div class="hero-img-container mobile">
+								<img
+									src="./assets/headshot.png"
+									alt="a man with a flattop haircut and a collared shirt smiling"
+								/>
+							</div>
+							<h3 class="desktop">
 								I'm a front-end developer with more than <br />
 								5 years of engineering experience in <br />
 								process improvement and user <br />
 								experience design.
+							</h3>
+							<h3 class="mobile mobile-wrapper">
+								I'm a front-end developer <br />
+								with more than 5 years of <br />
+								engineering experience in <br />
+								process improvement and <br />
+								user experience design.
 							</h3>
 							<a class="lg-button" href="#">View Resume</a>
 						</div>

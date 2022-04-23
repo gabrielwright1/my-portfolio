@@ -450,6 +450,7 @@ textarea::placeholder {
   font-size: 40px;
   position: relative;
   right: 5px;
+  cursor: pointer;
 }
 .slide-out-nav button:hover, .slide-out-nav button:focus {
   color: #ff00b8;
@@ -530,6 +531,7 @@ body {
   background-color: #000000;
   background-image: url("../../../assets/bg-hex-dark.png");
   background-attachment: fixed;
+  overflow-x: hidden;
 }
 
 a {
@@ -1265,13 +1267,60 @@ ul {
 }
 
 @media (max-width: 911px) {
-  .header-nav .desktop-nav {
+  .mobile {
+    display: block;
+  }
+
+  .desktop {
     display: none;
   }
+
+  .mobile-wrapper {
+    max-width: 336px;
+  }
+
   .header-nav label {
     display: block;
     position: fixed;
     top: 30px;
     right: 30px;
+  }
+  .header-nav .desktop {
+    display: none;
+  }
+
+  .hero-img-container {
+    margin: 0 auto;
+  }
+
+  .hero-text-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 auto;
+  }
+  .hero-text-container h1 {
+    margin: 30px auto 70px auto;
+    text-align: center;
+    font-family: "Monoton", cursive;
+    font-weight: 400;
+    font-size: 4.3rem;
+    line-height: 6rem;
+  }
+  .hero-text-container h3 {
+    margin: 40px 0;
+    text-align: center;
+    font-family: "Comfortaa", cursive;
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+  .hero-text-container a {
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;
   }
 }
