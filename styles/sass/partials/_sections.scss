@@ -101,9 +101,9 @@
 	li {
 		margin: 35px 0;
 	}
-	img {
-		filter: drop-shadow(4px 0 0 $clr-pink);
-	}
+	// img {
+	// 	filter: drop-shadow(4px 0 0 $clr-pink);
+	// }
 }
 
 .about-text-container {
@@ -330,6 +330,12 @@
 	}
 	img {
 		width: 35px;
+		&:hover {
+			// change color on hover
+			cursor: pointer;
+			filter: invert(24%) sepia(69%) saturate(7173%) hue-rotate(306deg)
+				brightness(99%) contrast(119%);
+		}
 	}
 }
 .contact-form {
