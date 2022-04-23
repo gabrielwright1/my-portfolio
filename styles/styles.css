@@ -1186,6 +1186,9 @@ ul {
           justify-content: flex-end;
   margin-top: 38px;
 }
+.contact-text-container li {
+  margin: auto 0;
+}
 .contact-text-container img {
   width: 35px;
 }
