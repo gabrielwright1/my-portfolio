@@ -41,7 +41,8 @@
 		max-height: 35px;
 		object-fit: contain;
 
-		&:hover {
+		&:hover,
+		&:focus {
 			// change color on hover
 			cursor: pointer;
 			filter: invert(24%) sepia(69%) saturate(7173%) hue-rotate(306deg)
@@ -330,7 +331,8 @@
 	}
 	img {
 		width: 35px;
-		&:hover {
+		&:hover,
+		&:focus {
 			// change color on hover
 			cursor: pointer;
 			filter: invert(24%) sepia(69%) saturate(7173%) hue-rotate(306deg)
