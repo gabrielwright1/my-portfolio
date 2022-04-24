@@ -1360,6 +1360,24 @@ ul {
     gap: 51px;
   }
 
+  .about span {
+    display: block;
+  }
+  .about h2 {
+    right: 0;
+    text-align: center;
+  }
+  .about h2::before {
+    width: 30px;
+    left: -105px;
+    top: 32px;
+  }
+  .about h2::after {
+    width: 30px;
+    left: 196px;
+    top: 32px;
+  }
+
   .about-inner-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1414,5 +1432,23 @@ ul {
     font-family: "Comfortaa", cursive;
     font-weight: 400;
     font-size: 1.8rem;
+  }
+
+  .projects span {
+    display: block;
+  }
+  .projects h2 {
+    right: 0;
+    text-align: center;
+  }
+  .projects h2::before {
+    width: 30px;
+    left: -78px;
+    top: 32px;
+  }
+  .projects h2::after {
+    width: 30px;
+    left: 225px;
+    top: 32px;
   }
 }

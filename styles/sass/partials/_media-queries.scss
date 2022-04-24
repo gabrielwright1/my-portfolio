@@ -85,6 +85,25 @@
 	// ------------------------
 	// ABOUT
 	// ------------------------
+	.about {
+		span {
+			display: block;
+		}
+		h2 {
+			right: 0;
+			text-align: center;
+		}
+		h2::before {
+			width: 30px;
+			left: -105px;
+			top: 32px;
+		}
+		h2::after {
+			width: 30px;
+			left: 196px;
+			top: 32px;
+		}
+	}
 	.about-inner-container {
 		flex-direction: column;
 		max-width: 336px;
@@ -128,6 +147,29 @@
 			margin: 0 0 35px 0;
 			text-decoration: underline;
 			@include setTypography($ff-secondary, $fw-regular, $fs-600);
+		}
+	}
+
+	// ------------------------
+	// RECENT PROJECTS
+	// ------------------------
+	.projects {
+		span {
+			display: block;
+		}
+		h2 {
+			right: 0;
+			text-align: center;
+		}
+		h2::before {
+			width: 30px;
+			left: -78px;
+			top: 32px;
+		}
+		h2::after {
+			width: 30px;
+			left: 225px;
+			top: 32px;
 		}
 	}
 }
