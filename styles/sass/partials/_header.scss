@@ -4,7 +4,8 @@
 
 .hero-img-container {
 	position: relative;
-	width: 336px;
+	width: 100%;
+	max-width: 336px;
 	height: 396.31px;
 	img {
 		position: relative;
@@ -18,7 +19,8 @@
 		top: -35px;
 		background-color: $clr-teal;
 		height: 331.69px;
-		width: 331.69px;
+		width: 100%;
+		max-width: 331.69px;
 		z-index: 10;
 		border-radius: 50%;
 		filter: drop-shadow(4px 4px 0 $clr-pink);

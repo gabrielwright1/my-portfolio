@@ -32,7 +32,7 @@
 .slide-out-nav {
 	background-color: $clr-black;
 	width: 12rem;
-	height: 20rem;
+	height: 100vh;
 	padding: 0 0 0 2rem;
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
@@ -51,5 +51,6 @@
 	.main-menu {
 		display: flex;
 		flex-direction: column;
+		gap: 2.5rem;
 	}
 }
