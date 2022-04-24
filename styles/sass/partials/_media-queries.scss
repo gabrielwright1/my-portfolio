@@ -54,4 +54,29 @@
 			margin: 0 auto;
 		}
 	}
+	.toolkit-outer-container {
+		max-width: 336px;
+	}
+	.toolkit-inner-container {
+		flex-direction: column;
+		width: 95%;
+	}
+	.toolkit-text-container {
+		text-align: center;
+		margin: 0 auto;
+		left: 0;
+		h2 {
+			@include setTypography($ff-secondary, $fw-regular, $fs-650);
+			margin: 25px 0;
+		}
+		h3 {
+			@include setTypography($ff-secondary, $fw-regular, $fs-550);
+			margin: 15px 0;
+		}
+	}
+	.toolkit-icon-container {
+		width: 65%;
+		margin: 30px auto;
+		gap: 51px;
+	}
 }
