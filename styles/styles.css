@@ -581,7 +581,7 @@ ul {
 .slide-out-nav {
   background-color: #000000;
   width: 12rem;
-  height: 18rem;
+  height: 20rem;
   padding: 0 0 0 2rem;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -1275,7 +1275,7 @@ ul {
     display: none;
   }
 
-  .mobile-wrapper {
+  .wrapper {
     max-width: 336px;
   }
 
@@ -1322,10 +1322,6 @@ ul {
     text-align: center;
     width: 95%;
     margin: 0 auto;
-  }
-
-  .toolkit-outer-container {
-    max-width: 336px;
   }
 
   .toolkit-inner-container {
@@ -1383,7 +1379,6 @@ ul {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    max-width: 336px;
     margin: 0 auto;
   }
 
@@ -1450,5 +1445,90 @@ ul {
     width: 30px;
     left: 225px;
     top: 32px;
+  }
+
+  .project-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .journey span {
+    display: block;
+  }
+  .journey h2 {
+    right: 0;
+    text-align: center;
+  }
+  .journey h2::before {
+    width: 30px;
+    left: -78px;
+    top: 32px;
+  }
+  .journey h2::after {
+    width: 30px;
+    left: 225px;
+    top: 32px;
+  }
+
+  .journey-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .contact span {
+    display: block;
+  }
+  .contact h2 {
+    right: 0;
+    text-align: center;
+  }
+  .contact h2::before {
+    width: 30px;
+    left: -78px;
+    top: 32px;
+  }
+  .contact h2::after {
+    width: 30px;
+    left: 225px;
+    top: 32px;
+  }
+
+  .contact-inner-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    margin: 0;
+  }
+  .contact-inner-container .contact-form {
+    margin: 0;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .contact-inner-container .contact-input-container {
+    margin: 0;
+  }
+  .contact-inner-container .sm-button {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .contact-inner-container .contact-text-container {
+    width: 100%;
+  }
+  .contact-inner-container h3 {
+    margin: 46px 0;
+    text-align: center;
+    font-family: "Comfortaa", cursive;
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+  .contact-inner-container ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }

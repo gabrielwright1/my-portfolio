@@ -8,7 +8,7 @@
 	.desktop {
 		display: none;
 	}
-	.mobile-wrapper {
+	.wrapper {
 		max-width: 336px;
 	}
 	// ------------------------
@@ -56,9 +56,6 @@
 	// ------------------------
 	// TOOLKIT
 	// ------------------------
-	.toolkit-outer-container {
-		max-width: 336px;
-	}
 	.toolkit-inner-container {
 		flex-direction: column;
 		width: 95%;
@@ -106,7 +103,6 @@
 	}
 	.about-inner-container {
 		flex-direction: column;
-		max-width: 336px;
 		margin: 0 auto;
 	}
 	.about-img-container {
@@ -170,6 +166,85 @@
 			width: 30px;
 			left: 225px;
 			top: 32px;
+		}
+	}
+	.project-container {
+		flex-direction: column;
+	}
+
+	// ------------------------
+	// MY JOURNEY
+	// ------------------------
+	.journey {
+		span {
+			display: block;
+		}
+		h2 {
+			right: 0;
+			text-align: center;
+		}
+		h2::before {
+			width: 30px;
+			left: -78px;
+			top: 32px;
+		}
+		h2::after {
+			width: 30px;
+			left: 225px;
+			top: 32px;
+		}
+	}
+	.journey-container {
+		flex-direction: column;
+	}
+
+	// ------------------------
+	// CONTACT
+	// ------------------------
+	.contact {
+		span {
+			display: block;
+		}
+		h2 {
+			right: 0;
+			text-align: center;
+		}
+		h2::before {
+			width: 30px;
+			left: -78px;
+			top: 32px;
+		}
+		h2::after {
+			width: 30px;
+			left: 225px;
+			top: 32px;
+		}
+	}
+	.contact-inner-container {
+		flex-direction: column-reverse;
+		margin: 0;
+		.contact-form {
+			margin: 0;
+			width: 90%;
+			margin: 0 auto;
+		}
+		.contact-input-container {
+			margin: 0;
+		}
+		.sm-button {
+			width: 100%;
+			margin: 0 auto;
+		}
+		.contact-text-container {
+			width: 100%;
+		}
+		h3 {
+			margin: 46px 0;
+			text-align: center;
+			@include setTypography($ff-secondary, $fw-regular, $fs-550);
+		}
+		ul {
+			justify-content: center;
 		}
 	}
 }
