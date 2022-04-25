@@ -1240,6 +1240,10 @@ ul {
 .contact-text-container li {
   margin: auto 0;
 }
+.contact-text-container li:nth-of-type(2),
+.contact-text-container li:nth-of-type(3) {
+  padding-top: 5px;
+}
 .contact-text-container img {
   width: 35px;
 }
@@ -1418,6 +1422,10 @@ ul {
     top: 32px;
   }
 
+  .about-outer-container {
+    overflow-x: hidden;
+  }
+
   .about-inner-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1489,6 +1497,10 @@ ul {
     width: 100px;
     left: 225px;
     top: 32px;
+  }
+
+  .project-outer-container {
+    overflow-x: hidden;
   }
 
   .project-container {
@@ -1572,6 +1584,10 @@ ul {
     top: 32px;
   }
 
+  .journey-outer-container {
+    overflow-x: hidden;
+  }
+
   .journey-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1644,6 +1660,10 @@ ul {
     width: 100px;
     left: 224px;
     top: 32px;
+  }
+
+  .contact-outer-container {
+    overflow-x: hidden;
   }
 
   .contact-inner-container {

@@ -132,6 +132,9 @@
 			top: 32px;
 		}
 	}
+	.about-outer-container {
+		overflow-x: hidden;
+	}
 	.about-inner-container {
 		flex-direction: column;
 		margin: 0 auto;
@@ -200,6 +203,9 @@
 			left: 225px;
 			top: 32px;
 		}
+	}
+	.project-outer-container {
+		overflow-x: hidden;
 	}
 	.project-container {
 		flex-direction: column;
@@ -272,6 +278,9 @@
 			top: 32px;
 		}
 	}
+	.journey-outer-container {
+		overflow-x: hidden;
+	}
 	.journey-container {
 		flex-direction: column;
 		&:nth-of-type(1) {
@@ -336,6 +345,9 @@
 			left: 224px;
 			top: 32px;
 		}
+	}
+	.contact-outer-container {
+		overflow-x: hidden;
 	}
 	.contact-inner-container {
 		flex-direction: column-reverse;

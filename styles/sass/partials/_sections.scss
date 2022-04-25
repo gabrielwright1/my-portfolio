@@ -330,6 +330,10 @@
 	li {
 		margin: auto 0;
 	}
+	li:nth-of-type(2),
+	li:nth-of-type(3) {
+		padding-top: 5px;
+	}
 	img {
 		width: 35px;
 		&:hover,
