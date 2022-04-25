@@ -1389,6 +1389,8 @@ ul {
     width: 100%;
     margin: 30px auto;
     padding: 0;
+    position: relative;
+    left: 2px;
   }
   .toolkit-icon-container li {
     width: 40px;
