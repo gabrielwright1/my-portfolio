@@ -1457,6 +1457,7 @@ ul {
     margin: 35px auto;
     width: 100%;
     display: block;
+    max-width: none;
   }
   .about-img-container img {
     width: 100%;
