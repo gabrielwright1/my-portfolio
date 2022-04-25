@@ -1660,9 +1660,6 @@ ul {
     width: 100%;
     margin: 0 auto;
   }
-  .contact-inner-container .contact-input-container {
-    gap: 20px;
-  }
   .contact-inner-container h3 {
     width: 90%;
     margin: 46px auto;
@@ -1680,6 +1677,14 @@ ul {
   }
   .contact-inner-container li {
     margin: 0 10px;
+  }
+
+  .contact-input-container [type=text],
+.contact-input-container [type=email],
+.contact-input-container [type=submit],
+.contact-input-container textarea {
+    padding: 15px;
+    margin: 5px 0;
   }
 
   .copyright {

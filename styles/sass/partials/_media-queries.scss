@@ -347,9 +347,6 @@
 			width: 100%;
 			margin: 0 auto;
 		}
-		.contact-input-container {
-			gap: 20px;
-		}
 		h3 {
 			width: 90%;
 			margin: 46px auto;
@@ -363,6 +360,15 @@
 		}
 		li {
 			margin: 0 10px;
+		}
+	}
+	.contact-input-container {
+		[type="text"],
+		[type="email"],
+		[type="submit"],
+		textarea {
+			padding: 15px;
+			margin: 5px 0;
 		}
 	}
 	// ------------------------
