@@ -48,6 +48,13 @@ p {
 	}
 }
 
+.contact-text-container {
+	a:focus,
+	a:hover {
+		color: $clr-pink;
+	}
+}
+
 // copyright - made with <3 by Gabriel Wright
 .copyright {
 	@include setTypography($ff-secondary, $fw-regular, $fs-400);

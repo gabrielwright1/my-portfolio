@@ -325,6 +325,11 @@ p {
   text-decoration: underline;
 }
 
+.contact-text-container a:focus,
+.contact-text-container a:hover {
+  color: #ff00b8;
+}
+
 .copyright {
   font-family: "Comfortaa", cursive;
   font-weight: 400;
@@ -980,6 +985,9 @@ ul {
 .about-img-container {
   padding: 0;
   margin: 35px 0;
+}
+.about-img-container img {
+  border-radius: 10px;
 }
 
 .about-text-container {
