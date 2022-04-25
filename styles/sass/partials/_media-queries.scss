@@ -33,18 +33,29 @@
 	// ------------------------
 	.hero-img-container {
 		margin: 20px auto;
+		max-width: 427.5px;
+		height: 100%;
+		&::before {
+			max-width: none;
+			max-height: 427.5px;
+			height: 100%;
+		}
+		img {
+			width: 100%;
+		}
 	}
 	.hero-text-container {
 		display: flex;
 		flex-direction: column;
 		margin: 0 auto;
 		h1 {
+			margin: 30px auto 50px auto;
 			text-align: center;
 			@include setTypography($ff-primary, $fw-regular, $fs-800, $lh-200);
 			width: 95%;
 		}
 		h3 {
-			margin: 40px auto;
+			margin: 20px auto 40px auto;
 			text-align: center;
 			@include setTypography($ff-secondary, $fw-regular, $fs-550);
 			width: 95%;
@@ -98,6 +109,7 @@
 			display: block;
 		}
 		h2 {
+			margin: 64px auto;
 			right: 0;
 			text-align: center;
 		}
@@ -166,6 +178,7 @@
 			display: block;
 		}
 		h2 {
+			margin: 64px auto;
 			right: 0;
 			text-align: center;
 		}
@@ -236,6 +249,7 @@
 			display: block;
 		}
 		h2 {
+			margin: 64px auto;
 			right: 0;
 			text-align: center;
 		}
@@ -300,7 +314,7 @@
 			display: block;
 		}
 		h2 {
-			margin: 46px auto;
+			margin: 64px auto;
 			right: 0;
 			text-align: center;
 		}
@@ -353,17 +367,25 @@
 }
 
 // Small phones
-@media (max-width: 395px) {
+@media (max-width: 478px) {
 	.hero-text-container {
 		h1 {
 			@include setTypography($ff-primary, $fw-regular, $fs-750);
+		}
+		h3 {
+			@include setTypography($ff-secondary, $fw-regular, $fs-500);
 		}
 	}
 	.hero-img-container {
 		height: 100%;
 		&::before {
-			height: 274.35px;
+			height: 85%;
 			width: 100%;
+		}
+	}
+	.toolkit-text-container {
+		h3 {
+			@include setTypography($ff-secondary, $fw-regular, $fs-500);
 		}
 	}
 	.contact-text-container {
@@ -373,5 +395,13 @@
 	}
 	.copyright {
 		gap: 5px;
+	}
+}
+
+@media (max-width: 396px) {
+	.hero-text-container {
+		h1 {
+			@include setTypography($ff-primary, $fw-regular, $fs-700);
+		}
 	}
 }

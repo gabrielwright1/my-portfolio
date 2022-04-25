@@ -275,7 +275,7 @@ img {
 h1 {
   font-family: "Monoton", cursive;
   font-weight: 400;
-  font-size: 2.95rem;
+  font-size: 3.5rem;
   color: #ffffff;
   text-shadow: 0 4px 4px rgba(255, 0, 184, 0.5);
 }
@@ -569,6 +569,7 @@ ul {
 .header-nav label {
   cursor: pointer;
   display: none;
+  z-index: 30;
 }
 .header-nav ul {
   margin: 0;
@@ -1297,6 +1298,16 @@ ul {
 
   .hero-img-container {
     margin: 20px auto;
+    max-width: 427.5px;
+    height: 100%;
+  }
+  .hero-img-container::before {
+    max-width: none;
+    max-height: 427.5px;
+    height: 100%;
+  }
+  .hero-img-container img {
+    width: 100%;
   }
 
   .hero-text-container {
@@ -1310,15 +1321,16 @@ ul {
     margin: 0 auto;
   }
   .hero-text-container h1 {
+    margin: 30px auto 50px auto;
     text-align: center;
     font-family: "Monoton", cursive;
     font-weight: 400;
-    font-size: 4.3rem;
+    font-size: 5.5rem;
     line-height: 6rem;
     width: 95%;
   }
   .hero-text-container h3 {
-    margin: 40px auto;
+    margin: 20px auto 40px auto;
     text-align: center;
     font-family: "Comfortaa", cursive;
     font-weight: 400;
@@ -1375,6 +1387,7 @@ ul {
     display: block;
   }
   .about h2 {
+    margin: 64px auto;
     right: 0;
     text-align: center;
   }
@@ -1447,6 +1460,7 @@ ul {
     display: block;
   }
   .projects h2 {
+    margin: 64px auto;
     right: 0;
     text-align: center;
   }
@@ -1527,6 +1541,7 @@ ul {
     display: block;
   }
   .journey h2 {
+    margin: 64px auto;
     right: 0;
     text-align: center;
   }
@@ -1600,7 +1615,7 @@ ul {
     display: block;
   }
   .contact h2 {
-    margin: 46px auto;
+    margin: 64px auto;
     right: 0;
     text-align: center;
   }
@@ -1656,19 +1671,30 @@ ul {
     gap: 1rem;
   }
 }
-@media (max-width: 395px) {
+@media (max-width: 478px) {
   .hero-text-container h1 {
     font-family: "Monoton", cursive;
     font-weight: 400;
-    font-size: 3.6rem;
+    font-size: 4.5rem;
+  }
+  .hero-text-container h3 {
+    font-family: "Comfortaa", cursive;
+    font-weight: 400;
+    font-size: 1.2rem;
   }
 
   .hero-img-container {
     height: 100%;
   }
   .hero-img-container::before {
-    height: 274.35px;
+    height: 85%;
     width: 100%;
+  }
+
+  .toolkit-text-container h3 {
+    font-family: "Comfortaa", cursive;
+    font-weight: 400;
+    font-size: 1.2rem;
   }
 
   .contact-text-container ul {
@@ -1677,5 +1703,12 @@ ul {
 
   .copyright {
     gap: 5px;
+  }
+}
+@media (max-width: 396px) {
+  .hero-text-container h1 {
+    font-family: "Monoton", cursive;
+    font-weight: 400;
+    font-size: 3.5rem;
   }
 }
