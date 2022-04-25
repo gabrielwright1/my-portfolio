@@ -611,7 +611,9 @@ ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 2.5rem;
+}
+.slide-out-nav .main-menu li {
+  margin: 10px 0;
 }
 
 /* The Modal (background) */
@@ -1383,16 +1385,20 @@ ul {
   }
 
   .toolkit-icon-container {
-    max-width: 300px;
+    max-width: 295px;
     width: 100%;
     margin: 30px auto;
   }
   .toolkit-icon-container li {
     width: 45px;
-    margin: 14px;
+    margin: 13px;
   }
   .toolkit-icon-container li img {
     max-height: 45px;
+  }
+
+  .modal-content {
+    height: 75vh;
   }
 
   .about span {
@@ -1695,7 +1701,7 @@ ul {
 .contact-input-container [type=email],
 .contact-input-container [type=submit],
 .contact-input-container textarea {
-    padding: 15px;
+    padding: auto 20px;
     margin: 5px 0;
   }
 

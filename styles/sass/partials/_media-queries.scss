@@ -28,6 +28,7 @@
 			display: none;
 		}
 	}
+
 	// ------------------------
 	// HEADER
 	// ------------------------
@@ -97,18 +98,23 @@
 		}
 	}
 	.toolkit-icon-container {
-		max-width: 300px;
+		max-width: 295px;
 		width: 100%;
 		margin: 30px auto;
 		li {
 			width: 45px;
-			margin: 14px;
+			margin: 13px;
 			img {
 				max-height: 45px;
 			}
 		}
 	}
-
+	// ------------------------
+	// MODAL
+	// ------------------------
+	.modal-content {
+		height: 75vh;
+	}
 	// ------------------------
 	// ABOUT
 	// ------------------------
@@ -379,10 +385,11 @@
 		[type="email"],
 		[type="submit"],
 		textarea {
-			padding: 15px;
+			padding: auto 20px;
 			margin: 5px 0;
 		}
 	}
+
 	// ------------------------
 	// FOOTER
 	// ------------------------
