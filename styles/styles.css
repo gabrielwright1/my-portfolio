@@ -275,7 +275,7 @@ img {
 h1 {
   font-family: "Monoton", cursive;
   font-weight: 400;
-  font-size: 3.5rem;
+  font-size: 2.95rem;
   color: #ffffff;
   text-shadow: 0 4px 4px rgba(255, 0, 184, 0.5);
 }
@@ -774,12 +774,19 @@ ul {
 .hero-text-container {
   margin: 0;
   margin-left: 58px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .hero-text-container h1 {
   margin: 50px 0;
 }
 .hero-text-container h3 {
   margin: 0 0 calc(50px + 0.5rem) 0;
+}
+.hero-text-container a {
+  width: 185px;
 }
 
 .copyright {

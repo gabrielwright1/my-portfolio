@@ -401,7 +401,7 @@
 @media (max-width: 396px) {
 	.hero-text-container {
 		h1 {
-			@include setTypography($ff-primary, $fw-regular, $fs-700);
+			@include setTypography($ff-primary, $fw-regular, $fs-725);
 		}
 	}
 }

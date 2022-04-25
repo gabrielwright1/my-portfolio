@@ -30,11 +30,14 @@
 .hero-text-container {
 	margin: 0;
 	margin-left: 58px;
-
+	flex-direction: column;
 	h1 {
 		margin: 50px 0;
 	}
 	h3 {
 		margin: 0 0 calc(50px + 0.5rem) 0;
+	}
+	a {
+		width: 185px;
 	}
 }
