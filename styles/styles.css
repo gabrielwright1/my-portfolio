@@ -873,6 +873,7 @@ ul {
   background-color: #80b9b2;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  border-radius: 10px;
   max-width: 911px;
 }
 
@@ -1348,12 +1349,13 @@ ul {
     text-align: center;
     margin: 0 auto;
     width: 95%;
-    max-width: 340px;
+    max-width: 294px;
   }
 
   .toolkit-outer-container {
     width: 100%;
-    max-width: 530px;
+    max-width: 475px;
+    margin: 90px auto 0 auto;
   }
 
   .toolkit-inner-container {
@@ -1361,12 +1363,11 @@ ul {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    max-width: 475px;
-    width: 95%;
+    width: 90%;
   }
 
   .toolkit-text-container {
-    max-width: 300px;
+    max-width: 340px;
     width: 100%;
     text-align: center;
     margin: 0 auto;
@@ -1386,10 +1387,16 @@ ul {
   }
 
   .toolkit-icon-container {
-    max-width: 200px;
+    max-width: 300px;
     width: 100%;
     margin: 30px auto;
-    gap: 45px;
+  }
+  .toolkit-icon-container li {
+    width: 45px;
+    margin: 14px;
+  }
+  .toolkit-icon-container li img {
+    max-height: 45px;
   }
 
   .about span {
@@ -1401,12 +1408,12 @@ ul {
     text-align: center;
   }
   .about h2::before {
-    width: 30px;
-    left: -105px;
+    width: 100px;
+    left: -175px;
     top: 32px;
   }
   .about h2::after {
-    width: 30px;
+    width: 100px;
     left: 196px;
     top: 32px;
   }
@@ -1474,12 +1481,12 @@ ul {
     text-align: center;
   }
   .projects h2::before {
-    width: 30px;
-    left: -78px;
+    width: 100px;
+    left: -148px;
     top: 32px;
   }
   .projects h2::after {
-    width: 30px;
+    width: 100px;
     left: 225px;
     top: 32px;
   }
@@ -1491,7 +1498,7 @@ ul {
             flex-direction: column;
   }
   .project-container:nth-of-type(1) {
-    margin: 0 auto 46px auto;
+    margin: 0 auto 90px auto;
   }
   .project-container:nth-of-type(2) {
     margin: 0 auto;
@@ -1555,13 +1562,13 @@ ul {
     text-align: center;
   }
   .journey h2::before {
-    width: 30px;
-    left: -85px;
+    width: 100px;
+    left: -154px;
     top: 32px;
   }
   .journey h2::after {
-    width: 30px;
-    left: 220px;
+    width: 100px;
+    left: 219px;
     top: 32px;
   }
 
@@ -1572,7 +1579,7 @@ ul {
             flex-direction: column;
   }
   .journey-container:nth-of-type(1) {
-    margin: 0 auto 46px auto;
+    margin: 0 auto 90px auto;
   }
   .journey-container:nth-of-type(2) {
     margin: 0 auto;
@@ -1629,13 +1636,13 @@ ul {
     text-align: center;
   }
   .contact h2::before {
-    width: 30px;
-    left: -78px;
+    width: 100px;
+    left: -148px;
     top: 32px;
   }
   .contact h2::after {
-    width: 30px;
-    left: 225px;
+    width: 100px;
+    left: 224px;
     top: 32px;
   }
 
@@ -1670,7 +1677,9 @@ ul {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    gap: 3rem;
+  }
+  .contact-inner-container li {
+    margin: 0 10px;
   }
 
   .copyright {
@@ -1708,6 +1717,10 @@ ul {
 
   .contact-text-container ul {
     gap: 2rem;
+  }
+
+  .toolkit-icon-container li {
+    margin: 12px;
   }
 
   .copyright {

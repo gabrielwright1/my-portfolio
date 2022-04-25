@@ -64,7 +64,7 @@
 			text-align: center;
 			margin: 0 auto;
 			width: 95%;
-			max-width: 340px;
+			max-width: 294px;
 		}
 	}
 
@@ -74,15 +74,15 @@
 
 	.toolkit-outer-container {
 		width: 100%;
-		max-width: 530px;
+		max-width: 475px;
+		margin: 90px auto 0 auto;
 	}
 	.toolkit-inner-container {
 		flex-direction: column;
-		max-width: 475px;
-		width: 95%;
+		width: 90%;
 	}
 	.toolkit-text-container {
-		max-width: 300px;
+		max-width: 340px;
 		width: 100%;
 		text-align: center;
 		margin: 0 auto;
@@ -97,10 +97,16 @@
 		}
 	}
 	.toolkit-icon-container {
-		max-width: 200px;
+		max-width: 300px;
 		width: 100%;
 		margin: 30px auto;
-		gap: 45px;
+		li {
+			width: 45px;
+			margin: 14px;
+			img {
+				max-height: 45px;
+			}
+		}
 	}
 
 	// ------------------------
@@ -116,12 +122,12 @@
 			text-align: center;
 		}
 		h2::before {
-			width: 30px;
-			left: -105px;
+			width: 100px;
+			left: -175px;
 			top: 32px;
 		}
 		h2::after {
-			width: 30px;
+			width: 100px;
 			left: 196px;
 			top: 32px;
 		}
@@ -185,12 +191,12 @@
 			text-align: center;
 		}
 		h2::before {
-			width: 30px;
-			left: -78px;
+			width: 100px;
+			left: -148px;
 			top: 32px;
 		}
 		h2::after {
-			width: 30px;
+			width: 100px;
 			left: 225px;
 			top: 32px;
 		}
@@ -198,7 +204,7 @@
 	.project-container {
 		flex-direction: column;
 		&:nth-of-type(1) {
-			margin: 0 auto 46px auto;
+			margin: 0 auto 90px auto;
 		}
 		&:nth-of-type(2) {
 			margin: 0 auto;
@@ -256,20 +262,20 @@
 			text-align: center;
 		}
 		h2::before {
-			width: 30px;
-			left: -85px;
+			width: 100px;
+			left: -154px;
 			top: 32px;
 		}
 		h2::after {
-			width: 30px;
-			left: 220px;
+			width: 100px;
+			left: 219px;
 			top: 32px;
 		}
 	}
 	.journey-container {
 		flex-direction: column;
 		&:nth-of-type(1) {
-			margin: 0 auto 46px auto;
+			margin: 0 auto 90px auto;
 		}
 		&:nth-of-type(2) {
 			margin: 0 auto;
@@ -321,13 +327,13 @@
 			text-align: center;
 		}
 		h2::before {
-			width: 30px;
-			left: -78px;
+			width: 100px;
+			left: -148px;
 			top: 32px;
 		}
 		h2::after {
-			width: 30px;
-			left: 225px;
+			width: 100px;
+			left: 224px;
 			top: 32px;
 		}
 	}
@@ -354,7 +360,9 @@
 			width: 90%;
 			margin: 0 auto;
 			justify-content: center;
-			gap: 3rem;
+		}
+		li {
+			margin: 0 10px;
 		}
 	}
 	// ------------------------
@@ -393,6 +401,11 @@
 	.contact-text-container {
 		ul {
 			gap: 2rem;
+		}
+	}
+	.toolkit-icon-container {
+		li {
+			margin: 12px;
 		}
 	}
 	.copyright {

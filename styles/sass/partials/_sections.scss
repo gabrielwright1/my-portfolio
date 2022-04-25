@@ -5,6 +5,7 @@
 	margin: 46px auto 0 auto;
 	background-color: $clr-teal;
 	justify-content: space-around;
+	border-radius: 10px;
 	max-width: 911px;
 }
 .toolkit-inner-container {
@@ -27,7 +28,6 @@
 		margin: 0;
 	}
 }
-
 .toolkit-icon-container {
 	display: flex;
 	flex-wrap: wrap;
