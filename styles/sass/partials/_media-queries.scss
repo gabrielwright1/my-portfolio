@@ -74,10 +74,12 @@
 
 	.toolkit-outer-container {
 		width: 100%;
+		max-width: 530px;
 	}
 	.toolkit-inner-container {
 		flex-direction: column;
-		width: 90%;
+		max-width: 475px;
+		width: 95%;
 	}
 	.toolkit-text-container {
 		max-width: 300px;
@@ -367,7 +369,7 @@
 }
 
 // Small phones
-@media (max-width: 478px) {
+@media (max-width: 484px) {
 	.hero-text-container {
 		h1 {
 			@include setTypography($ff-primary, $fw-regular, $fs-750);

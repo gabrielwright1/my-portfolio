@@ -1353,6 +1353,7 @@ ul {
 
   .toolkit-outer-container {
     width: 100%;
+    max-width: 530px;
   }
 
   .toolkit-inner-container {
@@ -1360,7 +1361,8 @@ ul {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 90%;
+    max-width: 475px;
+    width: 95%;
   }
 
   .toolkit-text-container {
@@ -1678,7 +1680,7 @@ ul {
     gap: 1rem;
   }
 }
-@media (max-width: 478px) {
+@media (max-width: 484px) {
   .hero-text-container h1 {
     font-family: "Monoton", cursive;
     font-weight: 400;
