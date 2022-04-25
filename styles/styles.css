@@ -396,6 +396,7 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
   font-weight: 400;
   font-size: 0.9rem;
   color: #000000;
+  background-color: #ffffff;
 }
 
 input::-moz-placeholder, textarea::-moz-placeholder {
@@ -403,6 +404,7 @@ input::-moz-placeholder, textarea::-moz-placeholder {
   font-weight: 400;
   font-size: 0.9rem;
   color: #000000;
+  background-color: #ffffff;
 }
 
 input:-ms-input-placeholder, textarea:-ms-input-placeholder {
@@ -410,6 +412,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   font-weight: 400;
   font-size: 0.9rem;
   color: #000000;
+  background-color: #ffffff;
 }
 
 input::-ms-input-placeholder, textarea::-ms-input-placeholder {
@@ -417,6 +420,7 @@ input::-ms-input-placeholder, textarea::-ms-input-placeholder {
   font-weight: 400;
   font-size: 0.9rem;
   color: #000000;
+  background-color: #ffffff;
 }
 
 textarea,
@@ -428,6 +432,7 @@ textarea::placeholder {
   font-weight: 400;
   font-size: 0.9rem;
   color: #000000;
+  background-color: #ffffff;
 }
 
 [type=submit] {
