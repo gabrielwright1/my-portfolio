@@ -31,16 +31,3 @@
 	clip: rect(0 0 0 0);
 	overflow: hidden;
 }
-
-// skip link
-.skip-link {
-	position: absolute;
-	left: -1000px;
-	top: 5px;
-	z-index: 999;
-	background: white;
-	color: black;
-}
-.skip-link:focus {
-	left: 0;
-}

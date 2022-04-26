@@ -349,19 +349,17 @@ p {
   text-transform: uppercase;
   -webkit-filter: drop-shadow(4px 4px 0 #ff00b8);
           filter: drop-shadow(4px 4px 0 #ff00b8);
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  display: inline-block;
 }
 .sm-button:hover, .sm-button:focus {
-  position: relative;
-  top: 4px;
-  left: 4px;
   -webkit-filter: drop-shadow(0 0 0 #ff00b8);
           filter: drop-shadow(0 0 0 #ff00b8);
-  -webkit-box-shadow: 0 0 15px #1d2226, 0 0 25px rgba(255, 255, 255, 0.25), 0 0 30px rgba(255, 0, 184, 0.55);
-          box-shadow: 0 0 15px #1d2226, 0 0 25px rgba(255, 255, 255, 0.25), 0 0 30px rgba(255, 0, 184, 0.55);
-  -webkit-transition: -webkit-box-shadow 0.65s ease-in-out;
-  transition: -webkit-box-shadow 0.65s ease-in-out;
-  transition: box-shadow 0.65s ease-in-out;
-  transition: box-shadow 0.65s ease-in-out, -webkit-box-shadow 0.65s ease-in-out;
+  -webkit-transform: translate(4px, 4px);
+          transform: translate(4px, 4px);
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 .lg-button {
@@ -376,19 +374,17 @@ p {
   text-transform: uppercase;
   -webkit-filter: drop-shadow(4px 4px 0 #ff00b8);
           filter: drop-shadow(4px 4px 0 #ff00b8);
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 .lg-button:hover, .lg-button:focus {
   position: relative;
-  top: 4px;
-  left: 4px;
+  -webkit-transform: translate(4px, 4px);
+          transform: translate(4px, 4px);
   -webkit-filter: drop-shadow(0 0 0 #ff00b8);
           filter: drop-shadow(0 0 0 #ff00b8);
-  -webkit-box-shadow: 0 0 15px #1d2226, 0 0 30px rgba(255, 255, 255, 0.25), 0 0 35px rgba(255, 0, 184, 0.55);
-          box-shadow: 0 0 15px #1d2226, 0 0 30px rgba(255, 255, 255, 0.25), 0 0 35px rgba(255, 0, 184, 0.55);
-  -webkit-transition: -webkit-box-shadow 0.65s ease-in-out;
-  transition: -webkit-box-shadow 0.65s ease-in-out;
-  transition: box-shadow 0.65s ease-in-out;
-  transition: box-shadow 0.65s ease-in-out, -webkit-box-shadow 0.65s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
@@ -523,19 +519,6 @@ i img {
           clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-.skip-link {
-  position: absolute;
-  left: -1000px;
-  top: 5px;
-  z-index: 999;
-  background: white;
-  color: black;
-}
-
-.skip-link:focus {
-  left: 0;
 }
 
 body {

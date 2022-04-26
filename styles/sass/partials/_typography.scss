@@ -71,15 +71,13 @@ p {
 	padding: 0.5rem 1rem;
 	text-transform: uppercase;
 	filter: drop-shadow(4px 4px 0 $clr-pink);
+	transition: all 0.25s ease-in-out;
+	display: inline-block;
 	&:hover,
 	&:focus {
-		position: relative;
-		top: 4px;
-		left: 4px;
 		filter: drop-shadow(0 0 0 $clr-pink);
-		box-shadow: 0 0 15px $clr-navy, 0 0 25px rgba($clr-white, 0.25),
-			0 0 30px rgba($clr-pink, 0.55);
-		transition: box-shadow 0.65s ease-in-out;
+		transform: translate(4px, 4px);
+		transition: all 0.25s ease-in-out;
 	}
 }
 
@@ -93,15 +91,13 @@ p {
 	padding: 0.75rem 1.25rem;
 	text-transform: uppercase;
 	filter: drop-shadow(4px 4px 0 $clr-pink);
+	transition: all 0.25s ease-in-out;
 	&:hover,
 	&:focus {
 		position: relative;
-		top: 4px;
-		left: 4px;
+		transform: translate(4px, 4px);
 		filter: drop-shadow(0 0 0 $clr-pink);
-		box-shadow: 0 0 15px $clr-navy, 0 0 30px rgba($clr-white, 0.25),
-			0 0 35px rgba($clr-pink, 0.55);
-		transition: box-shadow 0.65s ease-in-out;
+		transition: all 0.25s ease-in-out;
 	}
 }
 
