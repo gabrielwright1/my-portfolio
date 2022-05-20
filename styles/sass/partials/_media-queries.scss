@@ -398,12 +398,13 @@
 
 	.bottom-link {
 		justify-content: center;
-		margin: 46px auto 10px auto;
+		margin: 46px auto;
 		a {
 			position: static;
 		}
 	}
 	.copyright {
+		padding: 0 0 10px 0;
 		width: 90%;
 		margin: 0 auto;
 		left: 0;
