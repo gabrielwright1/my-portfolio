@@ -493,6 +493,11 @@ i img {
 .about-text-container a {
   color: #ffffff;
   text-decoration: underline;
+  display: block;
+}
+.about-text-container a:hover,
+.about-text-container a:focus {
+  color: #ff00b8;
 }
 
 .contact-text-container a {
