@@ -170,6 +170,16 @@ i {
 	}
 }
 
+.about-text-container {
+	p {
+		@include setTypography($ff-secondary, $fw-regular, $fs-500);
+	}
+	a {
+		color: $clr-white;
+		text-decoration: underline;
+	}
+}
+
 // contact link
 .contact-text-container {
 	a {
