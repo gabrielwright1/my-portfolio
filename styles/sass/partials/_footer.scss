@@ -30,6 +30,25 @@
 	}
 }
 
+.bottom-link {
+	justify-content: flex-end;
+	a {
+		color: $clr-white;
+		text-transform: uppercase;
+		position: relative;
+		top: -25px;
+	}
+	a:hover,
+	a:focus,
+	a:hover > i,
+	a:focus > i {
+		color: $clr-pink;
+	}
+	i {
+		padding: 0 10px;
+	}
+}
+
 @keyframes pulse {
 	0% {
 		transform: scale(0.95);

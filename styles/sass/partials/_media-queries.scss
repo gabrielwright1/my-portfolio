@@ -395,9 +395,17 @@
 	// ------------------------
 	// FOOTER
 	// ------------------------
+
+	.bottom-link {
+		justify-content: center;
+		margin: 46px auto 10px auto;
+		a {
+			position: static;
+		}
+	}
 	.copyright {
 		width: 90%;
-		margin: 46px auto 0 auto;
+		margin: 0 auto;
 		left: 0;
 		gap: 1rem;
 	}

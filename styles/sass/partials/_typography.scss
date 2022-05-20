@@ -177,3 +177,10 @@ i {
 		text-decoration: underline;
 	}
 }
+
+footer {
+	a {
+		@include setTypography($ff-secondary, $fw-regular, $fs-300);
+		color: $clr-white;
+	}
+}
