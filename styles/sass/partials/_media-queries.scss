@@ -217,15 +217,12 @@
 	.project-outer-container {
 		overflow-x: hidden;
 	}
+
 	.project-container {
 		flex-direction: column;
-		&:nth-of-type(1) {
-			margin: 0 auto 90px auto;
-		}
-		&:nth-of-type(2) {
-			margin: 0 auto;
-		}
+		margin: 0 auto 90px auto;
 	}
+
 	.project-img-container {
 		width: 90%;
 		margin: 0 auto;
@@ -234,6 +231,7 @@
 			width: 100%;
 		}
 	}
+
 	.project-text-container {
 		display: flex;
 		flex-direction: column;
@@ -397,9 +395,18 @@
 	// ------------------------
 	// FOOTER
 	// ------------------------
+
+	.bottom-link {
+		justify-content: center;
+		margin: 46px auto;
+		a {
+			position: static;
+		}
+	}
 	.copyright {
+		padding: 0 0 10px 0;
 		width: 90%;
-		margin: 46px auto 0 auto;
+		margin: 0 auto;
 		left: 0;
 		gap: 1rem;
 	}

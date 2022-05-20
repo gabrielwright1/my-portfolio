@@ -125,7 +125,7 @@
 		text-decoration: underline;
 	}
 	p:nth-of-type(1) {
-		margin: 50px 0 0 0;
+		margin: 75px 0 0 0;
 	}
 	p:nth-of-type(2),
 	p:nth-of-type(3) {
@@ -176,8 +176,8 @@
 	background-color: $clr-navy;
 	margin: 0 0 46px 0;
 	border-radius: 10px;
-	&:nth-of-type(2) {
-		margin: 0;
+	&:nth-of-type(6) {
+		margin: 0 auto;
 	}
 }
 

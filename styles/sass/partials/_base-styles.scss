@@ -1,10 +1,7 @@
 body {
 	background-color: $clr-black;
 	background-image: url("../../../assets/bg-hex-dark.png");
-	// background-size: cover;
 	background-attachment: fixed;
-	// background-size: contain;
-	// background-repeat: repeat-y;
 	overflow-x: hidden;
 }
 
@@ -14,4 +11,8 @@ a {
 
 ul {
 	list-style-type: none;
+}
+
+html {
+	scroll-behavior: smooth;
 }
