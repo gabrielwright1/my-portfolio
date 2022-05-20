@@ -69,9 +69,36 @@ app.setupModal = () => {
 	});
 };
 
+app.appendListener = (btn) => {
+	btn.addEventListener("click", (e) => {
+		app.handleUnclick(e);
+	});
+};
+
+app.handleUnclick = (e) => {
+	e.target.blur();
+};
+
+app.setupButtons = () => {
+	// taget all buttons on page
+	const smallBtns = document.querySelectorAll(".sm-button");
+	const largeBtns = document.querySelectorAll(".lg-button");
+
+	// append click listener to trigger unclick callback function
+	smallBtns.forEach((btn) => {
+		app.appendListener(btn);
+	});
+	largeBtns.forEach((btn) => {
+		app.appendListener(btn);
+	});
+};
+
 app.init = () => {
 	app.setupSlideOutNav();
 	app.setupModal();
+	app.setupButtons();
 };
 
-app.init();
+$(() => {
+	app.init();
+});
