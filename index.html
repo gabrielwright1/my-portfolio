@@ -18,13 +18,41 @@
 	<body>
 		<header>
 			<div class="header-container wrapper">
-				<nav class="header-nav">
+				<nav id="nav" class="header-nav">
 					<!-- desktop menu -->
 					<ul class="desktop">
-						<li><a href="#about">About</a></li>
-						<li><a href="#projects">Projects</a></li>
-						<li><a href="#journey">Journey</a></li>
-						<li><a href="#contact">Contact</a></li>
+						<li>
+							<a
+								class="nav-links"
+								aria-label="navigate to the about section"
+								href="#about"
+								>About</a
+							>
+						</li>
+						<li>
+							<a
+								class="nav-links"
+								aria-label="navigate to the projects section"
+								href="#projects"
+								>Projects</a
+							>
+						</li>
+						<li>
+							<a
+								class="nav-links"
+								aria-label="navigate to the journey section"
+								href="#journey"
+								>Journey</a
+							>
+						</li>
+						<li>
+							<a
+								class="nav-links"
+								aria-label="navigate to the contact section"
+								href="#contact"
+								>Contact</a
+							>
+						</li>
 					</ul>
 					<!-- mobile menu -->
 					<input type="checkbox" id="open-slide-out-menu" />
@@ -78,7 +106,7 @@
 							</h3>
 							<a
 								class="lg-button"
-								href="https://github.com/gabrielwright1/gabrielwright1/files/8559956/gabriel-wright-resume-dark.pdf"
+								href="https://github.com/gabrielwright1/portfolio-files/files/8742439/Gabriel_Wright_Resume.pdf"
 								target="_blank"
 								>View Resume</a
 							>
@@ -204,13 +232,11 @@
 					<!-- Modal content -->
 					<div class="modal-content">
 						<div class="modal-header">
-							<h2 id="modal-title" class="modal-header">
-								Modal Header
-							</h2>
+							<h2 id="modal-title" class="modal-header"></h2>
 							<span class="close">&times;</span>
 						</div>
 						<div class="modal-body">
-							<p id="modal-body">Some text in the Modal Body</p>
+							<p id="modal-body"></p>
 							<a id="modal-link" target="_blank" href="#"
 								>Learn More</a
 							>
@@ -316,7 +342,77 @@
 			<section id="projects" class="projects">
 				<div class="project-outer-container wrapper">
 					<h2>Recent <span>Projects</span></h2>
-					<!-- Hacker News Sentiment Analyzer -->
+					<!-- Earthquake Incident Tracker -->
+					<div class="project-container wrapper">
+						<div class="project-img-container">
+							<img
+								src="./assets/earthquake-tracker.png"
+								alt="a macbook and mobile phone showing a live demo of the Earthquake Detection website"
+							/>
+						</div>
+						<div class="project-text-container">
+							<h3>Earthquake Detection <span>Program</span></h3>
+							<p>
+								HTML | SCSS | JavaScript | Firebase | API |
+								React (Routing)
+							</p>
+							<p>
+								An agency-style group project that uses the USGS
+								API to plot earthquakes on a map generated with
+								the Leaflet API. Data for this app is
+								persistently stored using Firebase.
+							</p>
+							<a
+								class="sm-button"
+								target="_blank"
+								href="https://earthquake-detection-program.netlify.app/"
+								>View Demo</a
+							>
+							<a
+								class="sm-button"
+								target="_blank"
+								href="https://github.com/bootcamp-project-4/bootcamp-project-4"
+								>View Source</a
+							>
+						</div>
+					</div>
+
+					<!-- Mel's Drive In -->
+					<div class="project-container wrapper">
+						<div class="project-img-container">
+							<img
+								src="./assets/mels-drive-in.png"
+								alt="a macbook and mobile phone showing a live demo of the Mel's Drive-in food app"
+							/>
+						</div>
+						<div class="project-text-container">
+							<h3>Mel's Drive-In (Food Delivery App)</h3>
+							<p>
+								HTML | SCSS | JavaScript | Firebase | React
+								(Hooks)
+							</p>
+							<p>
+								A food delivery app that allows the user to pick
+								a burger from the menu, customize it, and add it
+								to the cart. Inspired by the movie American
+								Grafitti (1973).
+							</p>
+							<a
+								class="sm-button"
+								target="_blank"
+								href="https://gabriel-wright-mels-drive-in.netlify.app/"
+								>View Demo</a
+							>
+							<a
+								class="sm-button"
+								target="_blank"
+								href="https://github.com/gabrielwright1/gabriel-wright-bootcamp-project-three"
+								>View Source</a
+							>
+						</div>
+					</div>
+
+					<!-- Hacker News -->
 					<div class="project-container wrapper">
 						<div class="project-img-container">
 							<img
@@ -326,7 +422,7 @@
 						</div>
 						<div class="project-text-container">
 							<h3>Hacker News <span>Sentiment Analyzer</span></h3>
-							<p>HTML | CSS | SCSS | JS | APIs</p>
+							<p>HTML | SCSS | JavaScript | API</p>
 							<p>
 								An app that fetches news articles from the
 								Hacker News API and analyzes the top comment to
@@ -337,7 +433,7 @@
 								class="sm-button"
 								target="_blank"
 								href="https://muhammad-wazir-gabriel-wright-sentiment-analyzer-project-2.netlify.app/"
-								>Demo</a
+								>View Demo</a
 							>
 							<a
 								class="sm-button"
@@ -347,7 +443,7 @@
 							>
 						</div>
 					</div>
-					<!-- Planted Invitation -->
+					<!-- Planted Invitation  -->
 					<div class="project-container wrapper">
 						<div class="project-img-container">
 							<img
@@ -356,8 +452,8 @@
 							/>
 						</div>
 						<div class="project-text-container">
-							<h3>Planted Invitation</h3>
-							<p>HTML | CSS | SCSS</p>
+							<h3>Planted Invitation (PSD Conversion)</h3>
+							<p>HTML | CSS | SCSS (Mixins & Partials)</p>
 							<p>
 								A pixel-perfect replica of a photoshop design
 								provided by the instructors at Juno College that
@@ -368,13 +464,81 @@
 								class="sm-button"
 								target="_blank"
 								href="https://gabriel-wright-project-1-form-validation.netlify.app/"
-								>Demo</a
+								>View Demo</a
 							>
 							<a
 								class="sm-button"
 								target="_blank"
 								href="https://github.com/gabrielwright1/bootcamp-project-1"
 								>View Source</a
+							>
+						</div>
+					</div>
+
+					<!-- P&C Training Site  -->
+					<div class="project-container wrapper">
+						<div class="project-img-container">
+							<img
+								src="./assets/pc-training-site.png"
+								alt="a macbook and mobile phone showing a Miro board of notes used to design the P&C Training Site website"
+							/>
+						</div>
+						<div class="project-text-container">
+							<h3>P&C Training Site (UX Project)</h3>
+							<p>
+								SharePoint | InfoPath | Nintex | Sketch |
+								InVision | Miro
+							</p>
+							<p>
+								An internal SharePoint site designed for Hydro
+								One that enables administrators to manage the
+								registration, scheduling, and delivery of
+								courses for junior protection & control
+								engineers.
+							</p>
+							<a
+								class="sm-button"
+								target="_blank"
+								href="https://miro.com/app/board/o9J_le3hTxw=/?share_link_id=652873411105"
+								>View Miro</a
+							>
+							<a
+								class="sm-button"
+								target="_blank"
+								href="https://github.com/gabrielwright1/portfolio-files/files/8741647/PC_Training_Site_UX_Report.pdf"
+								>View Report</a
+							>
+						</div>
+					</div>
+
+					<!-- Your House Fitness  -->
+					<div class="project-container wrapper">
+						<div class="project-img-container">
+							<img
+								src="./assets/your-house-fitness.png"
+								alt="a macbook and mobile phone showing a live InVision prototype of the Your House Fitness app"
+							/>
+						</div>
+						<div class="project-text-container">
+							<h3>Your House Fitness App (UX Project)</h3>
+							<p>Sketch | InVision | Miro</p>
+							<p>
+								An fitness app mock-up that allows users to
+								access the YHF wellness vault of articles, book
+								appointments with trainers, and buy workout gear
+								from the online store.
+							</p>
+							<a
+								class="sm-button"
+								target="_blank"
+								href="https://invis.io/6K122PJTA9UM#/461519119_welcome-1"
+								>View InVision</a
+							>
+							<a
+								class="sm-button"
+								target="_blank"
+								href="https://github.com/gabrielwright1/portfolio-files/files/8741652/YHF_UX_Report.pdf"
+								>View Report</a
 							>
 						</div>
 					</div>
@@ -531,6 +695,14 @@
 			</section>
 		</main>
 		<footer>
+			<!-- scroll to top -->
+			<div class="wrapper bottom-link">
+				<a href="#nav" aria-label="back to top of page">
+					<i class="fa-solid fa-caret-up"></i>
+					Back to top
+					<i class="fa-solid fa-caret-up"></i>
+				</a>
+			</div>
 			<div class="copyright wrapper">
 				Made with
 				<span class="glowing-wrapper">
@@ -541,6 +713,12 @@
 				>by Gabriel Wright
 			</div>
 		</footer>
+		<!-- import jquery -->
+		<script
+			src="https://code.jquery.com/jquery-3.6.0.min.js"
+			integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			crossorigin="anonymous"
+		></script>
 		<!-- import custom script -->
 		<script src="./script.js"></script>
 	</body>
