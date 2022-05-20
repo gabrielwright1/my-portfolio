@@ -99,6 +99,7 @@ app.init = () => {
 	app.setupButtons();
 };
 
+// document ready
 $(() => {
 	app.init();
 });

@@ -1055,7 +1055,7 @@ ul {
   border-radius: 10px;
 }
 .project-container:nth-of-type(6) {
-  margin: 0;
+  margin: 0 auto;
 }
 
 .project-text-container {
@@ -1507,12 +1507,7 @@ ul {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-  .project-container:nth-of-type(1) {
     margin: 0 auto 90px auto;
-  }
-  .project-container:nth-of-type(2) {
-    margin: 0 auto;
   }
 
   .project-img-container {
