@@ -24,7 +24,7 @@
 	h2 {
 		margin: 0 0 18px 0;
 	}
-	h3 {
+	p {
 		margin: 0;
 	}
 }
@@ -184,17 +184,17 @@
 .project-text-container {
 	margin: auto 15.5px auto 58px;
 	max-width: 440px;
-	padding: 0 0 0.5rem 0;
+	padding: 0.5rem 0 1rem 0;
 	h3 {
 		text-decoration: underline;
-		margin: 0 0 7px 0;
+		margin: 0 0 3px 0;
 	}
 	p:nth-of-type(1) {
-		margin: 0 0 9px 0;
+		margin: 0 0 6px 0;
 	}
 	p:nth-of-type(2) {
 		text-align: justify;
-		margin: 0 0 calc(9px + 0.5rem) 0;
+		margin: 0 0 calc(4.5px + 0.5rem) 0;
 	}
 	a {
 		margin: 0 10px 0 0;
@@ -205,7 +205,7 @@
 	width: 309.21px;
 	position: relative;
 	left: 38px;
-	top: -20px;
+	top: -10px;
 }
 
 // ------------------------
@@ -259,14 +259,15 @@
 .journey-text-container {
 	margin: auto 15.5px auto 58px;
 	max-width: 440px;
-	padding: 0 0 0.5rem 0;
+	padding: 0.5rem 0 1rem 0;
+
 	h3 {
 		text-decoration: underline;
 		margin: 0 0 10px 0;
 	}
 	p:nth-of-type(1) {
 		text-align: justify;
-		margin: 0 0 calc(13px + 0.5rem) 0;
+		margin: 0 0 calc(4.5px + 0.5rem) 0;
 	}
 	a {
 		margin: 0 10px 0 0;
@@ -277,7 +278,7 @@
 	width: 309.21px;
 	position: relative;
 	left: 38px;
-	top: -20px;
+	top: -10px;
 }
 
 // ------------------------
@@ -322,8 +323,9 @@
 
 .contact-text-container {
 	width: 300px;
-	h3 {
+	p {
 		text-align: right;
+		margin: 0;
 	}
 	ul {
 		display: flex;

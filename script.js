@@ -5,7 +5,7 @@ const app = {};
 app.modalData = [
 	{
 		id: "html5",
-		body: "The term HTML5 is essentially a buzzword that refers to a set of modern web technologies. This includes the HTML Living Standard, along with JavaScript APIs to enhance storage, multimedia, and hardware access. You may sometimes hear about 'new HTML5 elements', or find HTML5 described as a new version of HTML.",
+		body: "HTML is a markup language that defines the structure of your content. HTML consists of a series of elements, which you use to enclose, or wrap, different parts of the content to make it appear a certain way, or act a certain way.",
 		source: "Mozilla Developer Network Documentation",
 		link: "https://developer.mozilla.org/en-US/docs/Glossary/HTML5",
 	},
