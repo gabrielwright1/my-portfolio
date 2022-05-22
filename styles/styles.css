@@ -291,15 +291,55 @@ h2 {
 h3 {
   font-family: "Comfortaa", cursive;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: #ffffff;
 }
 
 p {
   font-family: "Comfortaa", cursive;
   font-weight: 400;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.about li {
+  font-family: "Comfortaa", cursive;
+  font-weight: 400;
   font-size: 0.9rem;
   color: #ffffff;
+}
+
+.project-text-container p:nth-of-type(1),
+.project-text-container p:nth-of-type(2) {
+  font-family: "Comfortaa", cursive;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.journey-text-container p {
+  font-family: "Comfortaa", cursive;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.about-text-container a {
+  color: #ffffff;
+  text-decoration: underline;
+  display: block;
+}
+.about-text-container a:hover,
+.about-text-container a:focus {
+  color: #ff00b8;
+}
+
+.contact-text-container a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.contact-text-container a:focus,
+.contact-text-container a:hover {
+  color: #ff00b8;
 }
 
 .modal h2 {
@@ -323,11 +363,6 @@ p {
 .modal a:hover, .modal a:focus {
   color: #ffffff;
   text-decoration: underline;
-}
-
-.contact-text-container a:focus,
-.contact-text-container a:hover {
-  color: #ff00b8;
 }
 
 .copyright {
@@ -465,44 +500,11 @@ textarea::placeholder {
   transition: text-shadow 0.65s ease-in-out;
 }
 
-.toolkit-text-container h3 {
-  font-family: "Comfortaa", cursive;
-  font-weight: 400;
-  font-size: 1.2rem;
-}
-
 i {
   color: #ffffff;
 }
 i img {
   width: 15px;
-}
-
-.about li {
-  font-family: "Comfortaa", cursive;
-  font-weight: 400;
-  font-size: 0.9rem;
-  color: #ffffff;
-}
-
-.about-text-container p {
-  font-family: "Comfortaa", cursive;
-  font-weight: 400;
-  font-size: 1.2rem;
-}
-.about-text-container a {
-  color: #ffffff;
-  text-decoration: underline;
-  display: block;
-}
-.about-text-container a:hover,
-.about-text-container a:focus {
-  color: #ff00b8;
-}
-
-.contact-text-container a {
-  color: #ffffff;
-  text-decoration: underline;
 }
 
 footer a {
@@ -794,7 +796,7 @@ html {
 .hero-text-container h1 {
   margin: 50px 0;
 }
-.hero-text-container h3 {
+.hero-text-container p {
   margin: 0 0 calc(50px + 0.5rem) 0;
 }
 .hero-text-container a {
@@ -930,7 +932,7 @@ html {
 .toolkit-text-container h2 {
   margin: 0 0 18px 0;
 }
-.toolkit-text-container h3 {
+.toolkit-text-container p {
   margin: 0;
 }
 
@@ -1108,18 +1110,18 @@ html {
 .project-text-container {
   margin: auto 15.5px auto 58px;
   max-width: 440px;
-  padding: 0 0 0.5rem 0;
+  padding: 0.5rem 0 1rem 0;
 }
 .project-text-container h3 {
   text-decoration: underline;
-  margin: 0 0 7px 0;
+  margin: 0 0 3px 0;
 }
 .project-text-container p:nth-of-type(1) {
-  margin: 0 0 9px 0;
+  margin: 0 0 6px 0;
 }
 .project-text-container p:nth-of-type(2) {
   text-align: justify;
-  margin: 0 0 calc(9px + 0.5rem) 0;
+  margin: 0 0 calc(4.5px + 0.5rem) 0;
 }
 .project-text-container a {
   margin: 0 10px 0 0;
@@ -1129,7 +1131,7 @@ html {
   width: 309.21px;
   position: relative;
   left: 38px;
-  top: -20px;
+  top: -10px;
 }
 
 .journey-outer-container {
@@ -1191,7 +1193,7 @@ html {
 .journey-text-container {
   margin: auto 15.5px auto 58px;
   max-width: 440px;
-  padding: 0 0 0.5rem 0;
+  padding: 0.5rem 0 1rem 0;
 }
 .journey-text-container h3 {
   text-decoration: underline;
@@ -1199,7 +1201,7 @@ html {
 }
 .journey-text-container p:nth-of-type(1) {
   text-align: justify;
-  margin: 0 0 calc(13px + 0.5rem) 0;
+  margin: 0 0 calc(4.5px + 0.5rem) 0;
 }
 .journey-text-container a {
   margin: 0 10px 0 0;
@@ -1209,7 +1211,7 @@ html {
   width: 309.21px;
   position: relative;
   left: 38px;
-  top: -20px;
+  top: -10px;
 }
 
 .contact-outer-container {
@@ -1261,8 +1263,9 @@ html {
 .contact-text-container {
   width: 300px;
 }
-.contact-text-container h3 {
+.contact-text-container p {
   text-align: right;
+  margin: 0;
 }
 .contact-text-container ul {
   display: -webkit-box;
@@ -1379,12 +1382,12 @@ html {
     line-height: 6rem;
     width: 95%;
   }
-  .hero-text-container h3 {
+  .hero-text-container p {
     margin: 20px auto 40px auto;
     text-align: center;
     font-family: "Comfortaa", cursive;
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     width: 95%;
   }
   .hero-text-container a {
@@ -1421,10 +1424,10 @@ html {
     font-size: 2rem;
     margin: 25px 0;
   }
-  .toolkit-text-container h3 {
+  .toolkit-text-container p {
     font-family: "Comfortaa", cursive;
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin: 15px 0;
   }
 
@@ -1721,13 +1724,13 @@ html {
     width: 100%;
     margin: 0 auto;
   }
-  .contact-inner-container h3 {
+  .contact-inner-container p {
     width: 90%;
     margin: 46px auto;
     text-align: center;
     font-family: "Comfortaa", cursive;
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   .contact-inner-container ul {
     width: 90%;

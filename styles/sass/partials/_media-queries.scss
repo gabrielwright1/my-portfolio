@@ -55,7 +55,7 @@
 			@include setTypography($ff-primary, $fw-regular, $fs-800, $lh-200);
 			width: 95%;
 		}
-		h3 {
+		p {
 			margin: 20px auto 40px auto;
 			text-align: center;
 			@include setTypography($ff-secondary, $fw-regular, $fs-550);
@@ -92,7 +92,7 @@
 			@include setTypography($ff-secondary, $fw-regular, $fs-650);
 			margin: 25px 0;
 		}
-		h3 {
+		p {
 			@include setTypography($ff-secondary, $fw-regular, $fs-550);
 			margin: 15px 0;
 		}
@@ -367,7 +367,7 @@
 			width: 100%;
 			margin: 0 auto;
 		}
-		h3 {
+		p {
 			width: 90%;
 			margin: 46px auto;
 			text-align: center;
