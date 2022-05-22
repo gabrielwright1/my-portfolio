@@ -170,6 +170,21 @@ i {
 	}
 }
 
+.about-text-container {
+	p {
+		@include setTypography($ff-secondary, $fw-regular, $fs-500);
+	}
+	a {
+		color: $clr-white;
+		text-decoration: underline;
+		display: block;
+	}
+	a:hover,
+	a:focus {
+		color: $clr-pink;
+	}
+}
+
 // contact link
 .contact-text-container {
 	a {

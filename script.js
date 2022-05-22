@@ -168,10 +168,22 @@ app.setupButtons = () => {
 	});
 };
 
+app.scrollToTop = () => {
+	// scroll to top of page
+	window.scrollTo(0, 0);
+};
+
+app.setupBottomLink = () => {
+	const bottomLink = document.querySelector("#bottom-link");
+	// when user clicks on "back to top" link, autoscrolls to top of page
+	bottomLink.addEventListener("click", app.scrollToTop);
+};
+
 app.init = () => {
 	app.setupSlideOutNav();
 	app.setupModal();
 	app.setupButtons();
+	app.setupBottomLink();
 };
 
 // document ready

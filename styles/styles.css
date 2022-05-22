@@ -485,6 +485,21 @@ i img {
   color: #ffffff;
 }
 
+.about-text-container p {
+  font-family: "Comfortaa", cursive;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+.about-text-container a {
+  color: #ffffff;
+  text-decoration: underline;
+  display: block;
+}
+.about-text-container a:hover,
+.about-text-container a:focus {
+  color: #ff00b8;
+}
+
 .contact-text-container a {
   color: #ffffff;
   text-decoration: underline;
@@ -1004,7 +1019,7 @@ html {
 
 .about-img-container {
   padding: 0;
-  margin: 35px 0;
+  margin: 32px 0;
   max-width: 257px;
 }
 .about-img-container img {
@@ -1027,7 +1042,7 @@ html {
   text-decoration: underline;
 }
 .about-text-container p:nth-of-type(1) {
-  margin: 75px 0 0 0;
+  margin: 45px 0 0 0;
 }
 .about-text-container p:nth-of-type(2),
 .about-text-container p:nth-of-type(3) {
@@ -1097,14 +1112,14 @@ html {
 }
 .project-text-container h3 {
   text-decoration: underline;
-  margin: 0 0 10px 0;
+  margin: 0 0 7px 0;
 }
 .project-text-container p:nth-of-type(1) {
-  margin: 0 0 13px 0;
+  margin: 0 0 9px 0;
 }
 .project-text-container p:nth-of-type(2) {
   text-align: justify;
-  margin: 0 0 calc(13px + 0.5rem) 0;
+  margin: 0 0 calc(9px + 0.5rem) 0;
 }
 .project-text-container a {
   margin: 0 10px 0 0;
@@ -1304,7 +1319,7 @@ html {
   height: 120px;
 }
 .contact-input-container [type=submit] {
-  width: 70px;
+  width: 85px;
 }
 
 @media (max-width: 911px) {
