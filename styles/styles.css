@@ -302,11 +302,14 @@ p {
   color: #ffffff;
 }
 
-.project-text-container p:nth-of-type(1) {
+.about li {
   font-family: "Comfortaa", cursive;
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
+  color: #ffffff;
 }
+
+.project-text-container p:nth-of-type(1),
 .project-text-container p:nth-of-type(2) {
   font-family: "Comfortaa", cursive;
   font-weight: 400;
@@ -317,6 +320,26 @@ p {
   font-family: "Comfortaa", cursive;
   font-weight: 400;
   font-size: 1.1rem;
+}
+
+.about-text-container a {
+  color: #ffffff;
+  text-decoration: underline;
+  display: block;
+}
+.about-text-container a:hover,
+.about-text-container a:focus {
+  color: #ff00b8;
+}
+
+.contact-text-container a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.contact-text-container a:focus,
+.contact-text-container a:hover {
+  color: #ff00b8;
 }
 
 .modal h2 {
@@ -340,11 +363,6 @@ p {
 .modal a:hover, .modal a:focus {
   color: #ffffff;
   text-decoration: underline;
-}
-
-.contact-text-container a:focus,
-.contact-text-container a:hover {
-  color: #ff00b8;
 }
 
 .copyright {
@@ -487,28 +505,6 @@ i {
 }
 i img {
   width: 15px;
-}
-
-.about li {
-  font-family: "Comfortaa", cursive;
-  font-weight: 400;
-  font-size: 0.9rem;
-  color: #ffffff;
-}
-
-.about-text-container a {
-  color: #ffffff;
-  text-decoration: underline;
-  display: block;
-}
-.about-text-container a:hover,
-.about-text-container a:focus {
-  color: #ff00b8;
-}
-
-.contact-text-container a {
-  color: #ffffff;
-  text-decoration: underline;
 }
 
 footer a {

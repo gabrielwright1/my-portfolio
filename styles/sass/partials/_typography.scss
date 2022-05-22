@@ -27,10 +27,15 @@ p {
 	color: $clr-white;
 }
 
-.project-text-container {
-	p:nth-of-type(1) {
-		@include setTypography($ff-secondary, $fw-regular, $fs-400);
+.about {
+	li {
+		@include setTypography($ff-secondary, $fw-regular, $fs-300);
+		color: $clr-white;
 	}
+}
+
+.project-text-container {
+	p:nth-of-type(1),
 	p:nth-of-type(2) {
 		@include setTypography($ff-secondary, $fw-regular, $fs-400);
 	}
@@ -38,6 +43,33 @@ p {
 .journey-text-container {
 	p {
 		@include setTypography($ff-secondary, $fw-regular, $fs-400);
+	}
+}
+
+.about-text-container {
+	a {
+		color: $clr-white;
+		text-decoration: underline;
+		display: block;
+	}
+	a:hover,
+	a:focus {
+		color: $clr-pink;
+	}
+}
+
+// contact link
+.contact-text-container {
+	a {
+		color: $clr-white;
+		text-decoration: underline;
+	}
+}
+
+.contact-text-container {
+	a:focus,
+	a:hover {
+		color: $clr-pink;
 	}
 }
 
@@ -59,13 +91,6 @@ p {
 			color: $clr-white;
 			text-decoration: underline;
 		}
-	}
-}
-
-.contact-text-container {
-	a:focus,
-	a:hover {
-		color: $clr-pink;
 	}
 }
 
@@ -168,33 +193,6 @@ i {
 	color: $clr-white;
 	img {
 		width: 15px;
-	}
-}
-
-.about {
-	li {
-		@include setTypography($ff-secondary, $fw-regular, $fs-300);
-		color: $clr-white;
-	}
-}
-
-.about-text-container {
-	a {
-		color: $clr-white;
-		text-decoration: underline;
-		display: block;
-	}
-	a:hover,
-	a:focus {
-		color: $clr-pink;
-	}
-}
-
-// contact link
-.contact-text-container {
-	a {
-		color: $clr-white;
-		text-decoration: underline;
 	}
 }
 
