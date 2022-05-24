@@ -8,6 +8,7 @@ Built using:
 - HTML
 - CSS
 - Sass
+- jQuery
 - JavaScript
 
 Theme:
