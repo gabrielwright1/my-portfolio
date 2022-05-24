@@ -27,5 +27,4 @@ YHF UX Report:
 - [YHF_UX_Report.pdf](https://github.com/gabrielwright1/portfolio-files/files/8741652/YHF_UX_Report.pdf)
 
 Resume:
-
-- [Gabriel_Wright_Resume.pdf](https://github.com/gabrielwright1/portfolio-files/files/8742439/Gabriel_Wright_Resume.pdf)
+- [Gabriel_Wright_Resume.pdf](https://github.com/gabrielwright1/GabrielWright-portfolio/files/8766419/Gabriel_Wright_Resume.pdf)
