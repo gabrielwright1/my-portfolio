@@ -1,5 +1,5 @@
 ## Portfolio:
-https://gabrielwright.ca
+- https://gabrielwright.ca
 
 
 Built using:
