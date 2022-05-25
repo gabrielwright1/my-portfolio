@@ -18,13 +18,13 @@ Theme:
 ## Supporting documentation linked in the portfolio:
 
 P&C Training Site - UX Report:
-
-- [PC_Training_Site_UX_Report.pdf](https://github.com/gabrielwright1/portfolio-files/files/8741647/PC_Training_Site_UX_Report.pdf)
+- [PC_Training_Site_UX_Report.pdf](https://github.com/gabrielwright1/GabrielWright-portfolio/files/8772465/PC_Training_Site_UX_Report.pdf)
 
 
 YHF UX Report:
+- [YHF_UX_Report.pdf](https://github.com/gabrielwright1/GabrielWright-portfolio/files/8772468/YHF_UX_Report.pdf)
 
-- [YHF_UX_Report.pdf](https://github.com/gabrielwright1/portfolio-files/files/8741652/YHF_UX_Report.pdf)
 
 Resume:
-- [Gabriel_Wright_Resume.pdf](https://github.com/gabrielwright1/GabrielWright-portfolio/files/8766419/Gabriel_Wright_Resume.pdf)
+- [Gabriel_Wright_Resume.pdf](https://github.com/gabrielwright1/GabrielWright-portfolio/files/8772472/Gabriel_Wright_Resume.pdf)
+
