@@ -309,6 +309,22 @@ p {
   color: #ffffff;
 }
 
+.about-text-container a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+.about-text-container a:hover,
+.about-text-container a:focus {
+  color: #ff00b8;
+}
+.about-text-container blockquote,
+.about-text-container cite {
+  font-family: "Comfortaa", cursive;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #ffffff;
+}
+
 .project-text-container p:nth-of-type(1),
 .project-text-container p:nth-of-type(2) {
   font-family: "Comfortaa", cursive;
@@ -320,15 +336,6 @@ p {
   font-family: "Comfortaa", cursive;
   font-weight: 400;
   font-size: 1.1rem;
-}
-
-.about-text-container a {
-  color: #ffffff;
-  text-decoration: underline;
-}
-.about-text-container a:hover,
-.about-text-container a:focus {
-  color: #ff00b8;
 }
 
 .contact-text-container a {
@@ -1051,6 +1058,11 @@ html {
 .about-text-container p:nth-of-type(2),
 .about-text-container p:nth-of-type(3) {
   margin: 20px 0 0 0;
+}
+.about-text-container blockquote {
+  text-align: justify;
+  margin: 15px 0 15px 0;
+  font-style: italic;
 }
 
 .project-outer-container {
