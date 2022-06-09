@@ -325,7 +325,6 @@ p {
 .about-text-container a {
   color: #ffffff;
   text-decoration: underline;
-  display: block;
 }
 .about-text-container a:hover,
 .about-text-container a:focus {
@@ -1033,6 +1032,9 @@ html {
   margin-left: 58px;
   margin-right: 15.5px;
   text-align: justify;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
 }
 .about-text-container ul {
   list-style-type: disc;
@@ -1116,6 +1118,11 @@ html {
   text-decoration: underline;
   margin: 0 0 3px 0;
 }
+.project-text-container p {
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
+}
 .project-text-container p:nth-of-type(1) {
   margin: 0 0 6px 0;
 }
@@ -1198,6 +1205,11 @@ html {
 .journey-text-container h3 {
   text-decoration: underline;
   margin: 0 0 10px 0;
+}
+.journey-text-container p {
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
 }
 .journey-text-container p:nth-of-type(1) {
   text-align: justify;
