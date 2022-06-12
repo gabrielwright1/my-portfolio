@@ -1343,7 +1343,7 @@ html {
 }
 .contact-input-container textarea {
   padding-top: 10px;
-  height: 120px;
+  height: 40px;
 }
 .contact-input-container [type=submit] {
   width: 85px;
