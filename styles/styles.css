@@ -1348,6 +1348,9 @@ html {
 .contact-input-container [type=submit] {
   width: 85px;
 }
+.contact-input-container .field {
+  width: 30px;
+}
 
 @media (max-width: 911px) {
   .mobile {
