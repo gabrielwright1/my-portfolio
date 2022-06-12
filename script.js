@@ -1,7 +1,6 @@
 // namespacing object
 const app = {};
 
-// data to be displayed dynamically in the toolkit modals
 app.modalData = [
 	{
 		id: "html5",
@@ -156,14 +155,10 @@ app.handleUnclick = (e) => {
 
 app.setupButtons = () => {
 	// taget all buttons on page
-	const smallBtns = document.querySelectorAll(".sm-button");
-	const largeBtns = document.querySelectorAll(".lg-button");
+	const allBtns = document.querySelectorAll(".sm-button, .lg-button");
 
 	// append click listener to trigger unclick callback function
-	smallBtns.forEach((btn) => {
-		app.appendListener(btn);
-	});
-	largeBtns.forEach((btn) => {
+	allBtns.forEach((btn) => {
 		app.appendListener(btn);
 	});
 };
@@ -179,9 +174,24 @@ app.setupBottomLink = () => {
 	bottomLink.addEventListener("click", app.scrollToTop);
 };
 
+app.autoResizeTextArea = () => {
+	$("#message")
+		.each(function () {
+			this.setAttribute(
+				"style",
+				"height:" + this.scrollHeight + "px;overflow-y:hidden;"
+			);
+		})
+		.on("input", function () {
+			this.style.height = "40px";
+			this.style.height = this.scrollHeight + "px";
+		});
+};
+
 app.init = () => {
 	app.setupSlideOutNav();
 	app.setupModal();
+	app.autoResizeTextArea();
 	app.setupButtons();
 	app.setupBottomLink();
 };
