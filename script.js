@@ -188,11 +188,21 @@ app.autoResizeTextArea = () => {
 		});
 };
 
+// app.handleSubmit = (e) => {
+// 	e.preventDefault();
+// };
+
+app.setupForm = () => {
+	const form = document.querySelector("form");
+	form.addEventListener("submit", app.handleSubmit);
+};
+
 app.init = () => {
 	app.setupSlideOutNav();
 	app.setupModal();
 	app.autoResizeTextArea();
 	app.setupButtons();
+	// app.setupForm();
 	app.setupBottomLink();
 };
 
