@@ -644,7 +644,13 @@
 								</li>
 							</ul>
 						</div>
-						<form action="" class="contact-form">
+						<form
+							name="contact"
+							class="contact-form"
+							id="contact-form"
+							action="POST"
+							data-netlify="true"
+						>
 							<div class="contact-input-container wrapper">
 								<label for="name" class="sr-only"
 									>Please enter your name</label
@@ -653,8 +659,7 @@
 									type="text"
 									name="name"
 									id="name"
-									placeholder="Name (under construction)"
-									disabled
+									placeholder="Name"
 								/>
 								<label for="email" class="sr-only"
 									>Please enter your email</label
@@ -663,8 +668,7 @@
 									type="email"
 									name="email"
 									id="email"
-									placeholder="Email (under construction)"
-									disabled
+									placeholder="Email"
 								/>
 								<label for="message" class="sr-only"
 									>Please enter your message</label
@@ -674,15 +678,14 @@
 									id="message"
 									cols="30"
 									rows="10"
-									placeholder="Message (under construction)"
-									disabled
+									placeholder="Message"
 								></textarea>
-								<input
-									type="submit"
-									value="Send"
-									class="sm-button"
-									disabled
-								/>
+								<div class="field">
+									<div data-netlify-recaptcha="true"></div>
+								</div>
+								<button type="submit" class="sm-button">
+									Send
+								</button>
 							</div>
 						</form>
 					</div>
