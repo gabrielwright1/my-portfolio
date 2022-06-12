@@ -175,7 +175,7 @@ app.setupBottomLink = () => {
 };
 
 app.autoResizeTextArea = () => {
-	$("textarea")
+	$("#message")
 		.each(function () {
 			this.setAttribute(
 				"style",
