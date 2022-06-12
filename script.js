@@ -174,9 +174,24 @@ app.setupBottomLink = () => {
 	bottomLink.addEventListener("click", app.scrollToTop);
 };
 
+app.autoResizeTextArea = () => {
+	$("textarea")
+		.each(function () {
+			this.setAttribute(
+				"style",
+				"height:" + this.scrollHeight + "px;overflow-y:hidden;"
+			);
+		})
+		.on("input", function () {
+			this.style.height = "40px";
+			this.style.height = this.scrollHeight + "px";
+		});
+};
+
 app.init = () => {
 	app.setupSlideOutNav();
 	app.setupModal();
+	app.autoResizeTextArea();
 	app.setupButtons();
 	app.setupBottomLink();
 };

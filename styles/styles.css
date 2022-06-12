@@ -1343,13 +1343,9 @@ html {
 }
 .contact-input-container textarea {
   padding-top: 10px;
-  height: 40px;
 }
 .contact-input-container [type=submit] {
   width: 85px;
-}
-.contact-input-container .captcha {
-  width: 30px;
 }
 
 @media (max-width: 911px) {
