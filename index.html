@@ -660,6 +660,7 @@
 									name="name"
 									id="name"
 									placeholder="Name"
+									required
 								/>
 								<label for="email" class="sr-only"
 									>Please enter your email</label
@@ -669,6 +670,7 @@
 									name="email"
 									id="email"
 									placeholder="Email"
+									required
 								/>
 								<label for="message" class="sr-only"
 									>Please enter your message</label
@@ -680,9 +682,13 @@
 									cols="30"
 									rows="10"
 									placeholder="Message"
+									required
 								></textarea>
 								<div class="recaptcha">
-									<div data-netlify-recaptcha="true"></div>
+									<div
+										data-netlify-recaptcha="true"
+										required
+									></div>
 								</div>
 								<button type="submit" class="sm-button">
 									Send
@@ -695,7 +701,7 @@
 		</main>
 		<footer>
 			<!-- scroll to top -->
-			<div class="wrapper bottom-link">
+			<div class="wrapper bottom-link mobile">
 				<a id="bottom-link" href="#" aria-label="back to top of page">
 					Back to top
 				</a>
