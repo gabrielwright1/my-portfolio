@@ -1348,7 +1348,7 @@ html {
 .contact-input-container [type=submit] {
   width: 85px;
 }
-.contact-input-container .field {
+.contact-input-container .captcha {
   width: 30px;
 }
 
