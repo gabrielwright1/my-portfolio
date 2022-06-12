@@ -644,7 +644,13 @@
 								</li>
 							</ul>
 						</div>
-						<form action="" class="contact-form">
+						<form
+							name="contact"
+							class="contact-form"
+							id="contact-form"
+							action="POST"
+							data-netlify="true"
+						>
 							<div class="contact-input-container wrapper">
 								<label for="name" class="sr-only"
 									>Please enter your name</label
@@ -653,8 +659,7 @@
 									type="text"
 									name="name"
 									id="name"
-									placeholder="Name (under construction)"
-									disabled
+									placeholder="Name"
 								/>
 								<label for="email" class="sr-only"
 									>Please enter your email</label
@@ -663,8 +668,7 @@
 									type="email"
 									name="email"
 									id="email"
-									placeholder="Email (under construction)"
-									disabled
+									placeholder="Email"
 								/>
 								<label for="message" class="sr-only"
 									>Please enter your message</label
@@ -672,17 +676,17 @@
 								<textarea
 									name="message"
 									id="message"
+									class="message"
 									cols="30"
 									rows="10"
-									placeholder="Message (under construction)"
-									disabled
+									placeholder="Message"
 								></textarea>
-								<input
-									type="submit"
-									value="Send"
-									class="sm-button"
-									disabled
-								/>
+								<div class="recaptcha">
+									<div data-netlify-recaptcha="true"></div>
+								</div>
+								<button type="submit" class="sm-button">
+									Send
+								</button>
 							</div>
 						</form>
 					</div>
@@ -693,9 +697,7 @@
 			<!-- scroll to top -->
 			<div class="wrapper bottom-link">
 				<a id="bottom-link" href="#" aria-label="back to top of page">
-					<i class="fa-solid fa-caret-up"></i>
 					Back to top
-					<i class="fa-solid fa-caret-up"></i>
 				</a>
 			</div>
 			<div class="copyright wrapper">

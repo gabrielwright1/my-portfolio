@@ -1335,15 +1335,14 @@ html {
 }
 .contact-input-container [type=text],
 .contact-input-container [type=email],
-.contact-input-container textarea {
+.contact-input-container .message {
   border-radius: 10px;
   padding-left: 5px;
   height: 40px;
   border: none;
 }
-.contact-input-container textarea {
+.contact-input-container .message {
   padding-top: 10px;
-  height: 120px;
 }
 .contact-input-container [type=submit] {
   width: 85px;
