@@ -29,4 +29,4 @@ Resume:
 - [Gabriel_Wright_Resume.pdf](https://github.com/gabrielwright1/GabrielWright-portfolio/files/8772472/Gabriel_Wright_Resume.pdf)
 
 Travel Request Automation Presentation:
-- [Travel_Request_Automation_Presentation.pdf](https://github.com/gabrielwright1/my-portfolio/files/8893379/GAW.-.Travel_Request_Automation_Presentation.pdf)
+- [Travel_Request_Automation_Presentation.pdf](https://github.com/gabrielwright1/my-portfolio/files/8893386/Travel_Request_Automation_Presentation.pdf)
