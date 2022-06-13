@@ -12,7 +12,7 @@
 - JavaScript
 
 ## Theme:
-- Created using Figma
+- Created by Gabriel Wright using Figma
 ![desktop-1024px](https://user-images.githubusercontent.com/52660296/170135582-32776d12-8843-4414-86e8-d7c303b88f85.png)
 
 ## Additional documentation (used in portfolio):
@@ -29,4 +29,4 @@ Resume:
 - [Gabriel_Wright_Resume.pdf](https://github.com/gabrielwright1/GabrielWright-portfolio/files/8772472/Gabriel_Wright_Resume.pdf)
 
 Travel Request Automation Presentation:
-- [Travel_Request_Automation_Presentation.pdf](https://github.com/gabrielwright1/my-portfolio/files/8893354/GAW.-.Travel_Request_Automation_Presentation.pdf)
+- [Travel_Request_Automation_Presentation.pdf](https://github.com/gabrielwright1/my-portfolio/files/8893379/GAW.-.Travel_Request_Automation_Presentation.pdf)
