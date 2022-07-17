@@ -26,7 +26,8 @@ YHF UX Report:
 
 
 Resume:
-- [Gabriel_Wright_Resume.pdf](https://github.com/gabrielwright1/GabrielWright-portfolio/files/8772472/Gabriel_Wright_Resume.pdf)
+- [Gabriel-Wright-Resume.pdf](https://github.com/gabrielwright1/my-portfolio/files/9128220/Gabriel-Wright-Resume.pdf)
+
 
 Travel Request Automation Presentation:
 - [Travel_Request_Automation_Presentation.pdf](https://github.com/gabrielwright1/my-portfolio/files/8893386/Travel_Request_Automation_Presentation.pdf)
