@@ -302,12 +302,12 @@
 
 								My software projects included small applications
 								that helped maintainers more easily plan their
-								strategic spares inventory. As well as, larger
+								strategic spares inventory, as well as, larger
 								applications used by +500 employees to review
-								and approve out-of-province travel requests. As
-								my projects began to reach a larger audience at
-								Hydro One, it became more important than ever to
-								find new ways to put the user first.
+								out-of-province travel requests. As my projects
+								began to reach a larger audience at Hydro One,
+								it became more important than ever to find new
+								ways to put the user first.
 
 								<br /><br />
 								One day, I was approached by engineering leaders
@@ -489,9 +489,10 @@
 								InVision
 							</p>
 							<p>
-								A UX project for Hydro One to build a learning
-								management form that facilitates registration
-								and delivery of courses for junior engineers.
+								A UX project to design a learning platform for
+								Hydro One that facilitates registration and
+								delivery of training courses for junior
+								engineers.
 							</p>
 							<a
 								class="sm-button"
@@ -520,9 +521,9 @@
 							<h3>Your House Fitness App</h3>
 							<p>Sketch | InVision</p>
 							<p>
-								A UX personal project that allows users to
-								access book sessions with trainers, browse
-								wellness articles, and buy training gear.
+								A UX personal project that allows users to book
+								sessions with trainers, browse wellness
+								articles, and buy training gear.
 							</p>
 							<a
 								class="sm-button"
@@ -643,7 +644,13 @@
 								</li>
 							</ul>
 						</div>
-						<form action="" class="contact-form">
+						<form
+							name="contact"
+							class="contact-form"
+							id="contact-form"
+							action="POST"
+							data-netlify="true"
+						>
 							<div class="contact-input-container wrapper">
 								<label for="name" class="sr-only"
 									>Please enter your name</label
@@ -652,8 +659,8 @@
 									type="text"
 									name="name"
 									id="name"
-									placeholder="Name (under construction)"
-									disabled
+									placeholder="Name"
+									required
 								/>
 								<label for="email" class="sr-only"
 									>Please enter your email</label
@@ -662,8 +669,8 @@
 									type="email"
 									name="email"
 									id="email"
-									placeholder="Email (under construction)"
-									disabled
+									placeholder="Email"
+									required
 								/>
 								<label for="message" class="sr-only"
 									>Please enter your message</label
@@ -671,17 +678,21 @@
 								<textarea
 									name="message"
 									id="message"
+									class="message"
 									cols="30"
 									rows="10"
-									placeholder="Message (under construction)"
-									disabled
+									placeholder="Message"
+									required
 								></textarea>
-								<input
-									type="submit"
-									value="Send"
-									class="sm-button"
-									disabled
-								/>
+								<div class="recaptcha">
+									<div
+										data-netlify-recaptcha="true"
+										required
+									></div>
+								</div>
+								<button type="submit" class="sm-button">
+									Send
+								</button>
 							</div>
 						</form>
 					</div>
@@ -690,11 +701,9 @@
 		</main>
 		<footer>
 			<!-- scroll to top -->
-			<div class="wrapper bottom-link">
+			<div class="wrapper bottom-link mobile">
 				<a id="bottom-link" href="#" aria-label="back to top of page">
-					<i class="fa-solid fa-caret-up"></i>
 					Back to top
-					<i class="fa-solid fa-caret-up"></i>
 				</a>
 			</div>
 			<div class="copyright wrapper">
@@ -714,6 +723,6 @@
 			crossorigin="anonymous"
 		></script>
 		<!-- import custom script -->
-		<script src="./script.js"></script>
+		<script type="module" src="./scripts/script.js"></script>
 	</body>
 </html>

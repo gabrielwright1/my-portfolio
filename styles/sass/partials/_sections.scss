@@ -375,15 +375,14 @@
 	gap: 0.8rem;
 	[type="text"],
 	[type="email"],
-	textarea {
+	.message {
 		border-radius: 10px;
 		padding-left: 5px;
 		height: 40px;
 		border: none;
 	}
-	textarea {
+	.message {
 		padding-top: 10px;
-		height: 120px;
 	}
 	[type="submit"] {
 		width: 85px;
