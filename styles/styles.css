@@ -1353,16 +1353,13 @@ html {
   .mobile {
     display: block;
   }
-
   .desktop {
     display: none;
   }
-
   .wrapper {
     max-width: 500px;
     width: 95%;
   }
-
   .header-nav label {
     display: block;
     position: fixed;
@@ -1372,7 +1369,6 @@ html {
   .header-nav .desktop {
     display: none;
   }
-
   .hero-img-container {
     margin: 20px auto;
     max-width: 427.5px;
@@ -1386,7 +1382,6 @@ html {
   .hero-img-container img {
     width: 100%;
   }
-
   .hero-text-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1420,13 +1415,11 @@ html {
     width: 95%;
     max-width: 294px;
   }
-
   .toolkit-outer-container {
     width: 100%;
     max-width: 475px;
     margin: 90px auto 0 auto;
   }
-
   .toolkit-inner-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1434,7 +1427,6 @@ html {
             flex-direction: column;
     width: 90%;
   }
-
   .toolkit-text-container {
     max-width: 340px;
     width: 100%;
@@ -1454,7 +1446,6 @@ html {
     font-size: 1.4rem;
     margin: 15px 0;
   }
-
   .toolkit-icon-container {
     max-width: 275px;
     width: 100%;
@@ -1470,11 +1461,9 @@ html {
   .toolkit-icon-container li img {
     max-height: 45px;
   }
-
   .modal-content {
     height: 75vh;
   }
-
   .about span {
     display: block;
   }
@@ -1493,11 +1482,9 @@ html {
     left: 196px;
     top: 32px;
   }
-
   .about-outer-container {
     overflow-x: hidden;
   }
-
   .about-inner-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1514,7 +1501,6 @@ html {
     width: 90%;
     margin: 0 auto;
   }
-
   .about-img-container {
     margin: 35px auto;
     width: 100%;
@@ -1524,7 +1510,6 @@ html {
   .about-img-container img {
     width: 100%;
   }
-
   .about-text-container {
     width: 90%;
     margin: 0 auto;
@@ -1552,7 +1537,6 @@ html {
   .about-text-container li {
     text-align: left;
   }
-
   .projects span {
     display: block;
   }
@@ -1571,11 +1555,9 @@ html {
     left: 225px;
     top: 32px;
   }
-
   .project-outer-container {
     overflow-x: hidden;
   }
-
   .project-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1583,7 +1565,6 @@ html {
             flex-direction: column;
     margin: 0 auto 90px auto;
   }
-
   .project-img-container {
     width: 90%;
     margin: 0 auto;
@@ -1592,7 +1573,6 @@ html {
   .project-img-container img {
     width: 100%;
   }
-
   .project-text-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1632,7 +1612,6 @@ html {
   .project-text-container span {
     display: block;
   }
-
   .journey span {
     display: block;
   }
@@ -1651,11 +1630,9 @@ html {
     left: 219px;
     top: 32px;
   }
-
   .journey-outer-container {
     overflow-x: hidden;
   }
-
   .journey-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1668,7 +1645,6 @@ html {
   .journey-container:nth-of-type(2) {
     margin: 0 auto;
   }
-
   .journey-img-container {
     width: 90%;
     margin: 0 auto;
@@ -1677,7 +1653,6 @@ html {
   .journey-img-container img {
     width: 100%;
   }
-
   .journey-text-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1710,7 +1685,6 @@ html {
     text-align: justify;
     margin: 25px 0;
   }
-
   .contact span {
     display: block;
   }
@@ -1729,11 +1703,9 @@ html {
     left: 224px;
     top: 32px;
   }
-
   .contact-outer-container {
     overflow-x: hidden;
   }
-
   .contact-inner-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -1766,7 +1738,6 @@ html {
   .contact-inner-container li {
     margin: 0 10px;
   }
-
   .contact-input-container [type=text],
 .contact-input-container [type=email],
 .contact-input-container [type=submit],
@@ -1774,7 +1745,6 @@ html {
     padding: auto 20px;
     margin: 5px 0;
   }
-
   .bottom-link {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -1784,7 +1754,6 @@ html {
   .bottom-link a {
     position: static;
   }
-
   .copyright {
     padding: 0 0 10px 0;
     width: 90%;
@@ -1804,7 +1773,6 @@ html {
     font-weight: 400;
     font-size: 1.2rem;
   }
-
   .hero-img-container {
     height: 100%;
   }
@@ -1812,21 +1780,17 @@ html {
     height: 85%;
     width: 100%;
   }
-
   .toolkit-text-container h3 {
     font-family: "Comfortaa", cursive;
     font-weight: 400;
     font-size: 1.2rem;
   }
-
   .contact-text-container ul {
     gap: 2rem;
   }
-
   .toolkit-icon-container li {
     margin: 12px;
   }
-
   .copyright {
     gap: 5px;
   }
