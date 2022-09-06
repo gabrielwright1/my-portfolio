@@ -85,6 +85,7 @@ p {
 	p {
 		@include setTypography($ff-secondary, $fw-regular, $fs-500);
 		text-align: justify;
+		hyphens: auto;
 	}
 	a {
 		@include setTypography($ff-secondary, $fw-bold, $fs-500);
