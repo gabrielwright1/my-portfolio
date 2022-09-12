@@ -116,6 +116,7 @@
 	margin-right: 15.5px;
 	text-align: justify;
 	hyphens: auto;
+	position: relative;
 	ul {
 		list-style-type: disc;
 		margin: 0;
@@ -136,6 +137,10 @@
 		text-align: justify;
 		margin: 15px 0 15px 0;
 		font-style: italic;
+	}
+	cite {
+		position: absolute;
+		right: 0;
 	}
 }
 

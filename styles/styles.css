@@ -1046,6 +1046,7 @@ html {
   -webkit-hyphens: auto;
       -ms-hyphens: auto;
           hyphens: auto;
+  position: relative;
 }
 .about-text-container ul {
   list-style-type: disc;
@@ -1067,6 +1068,10 @@ html {
   text-align: justify;
   margin: 15px 0 15px 0;
   font-style: italic;
+}
+.about-text-container cite {
+  position: absolute;
+  right: 0;
 }
 
 .project-outer-container {
