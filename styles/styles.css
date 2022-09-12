@@ -1121,7 +1121,7 @@ html {
   margin: 0 0 46px 0;
   border-radius: 10px;
 }
-.project-container:nth-of-type(6) {
+.project-container:last-child {
   margin: 0 auto;
 }
 
@@ -1153,7 +1153,7 @@ html {
 .project-img-container {
   width: 309.21px;
   position: relative;
-  left: 38px;
+  left: 0px;
   top: -10px;
 }
 
@@ -1209,7 +1209,7 @@ html {
   margin: 0 0 46px 0;
   border-radius: 10px;
 }
-.journey-container:nth-of-type(2) {
+.journey-container:last-child {
   margin: 0;
 }
 
@@ -1238,7 +1238,7 @@ html {
 .journey-img-container {
   width: 309.21px;
   position: relative;
-  left: 38px;
+  left: 0px;
   top: -10px;
 }
 
