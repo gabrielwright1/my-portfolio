@@ -1028,8 +1028,9 @@ html {
 .about-inner-container ul {
   padding: 0;
 }
-.about-inner-container li:last-child {
-  margin: 42px 0 0 0;
+.about-inner-container .desktop-panel {
+  position: relative;
+  top: 8px;
 }
 
 .about-img-container {

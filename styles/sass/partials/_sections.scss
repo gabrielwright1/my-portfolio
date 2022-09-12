@@ -100,8 +100,9 @@
 	ul {
 		padding: 0;
 	}
-	li:last-child {
-		margin: 42px 0 0 0;
+	.desktop-panel {
+		position: relative;
+		top: 8px;
 	}
 }
 .about-img-container {
