@@ -148,9 +148,13 @@
 		flex-direction: column;
 		margin: 0 auto;
 		padding: 0;
+		li:last-child {
+			margin: 0 auto;
+		}
 		ul {
 			padding: 0;
 			width: 100%;
+			margin: 0;
 			// top image in about section
 			img {
 				width: 90%;

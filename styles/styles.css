@@ -1028,6 +1028,9 @@ html {
 .about-inner-container ul {
   padding: 0;
 }
+.about-inner-container li:last-child {
+  margin: 42px 0 0 0;
+}
 
 .about-img-container {
   padding: 0;
@@ -1501,9 +1504,13 @@ html {
     margin: 0 auto;
     padding: 0;
   }
+  .about-inner-container li:last-child {
+    margin: 0 auto;
+  }
   .about-inner-container ul {
     padding: 0;
     width: 100%;
+    margin: 0;
   }
   .about-inner-container ul img {
     width: 90%;
