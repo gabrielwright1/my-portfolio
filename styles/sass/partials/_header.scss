@@ -1,7 +1,6 @@
 .header-container {
 	flex-direction: column;
 }
-
 .hero-img-container {
 	position: relative;
 	width: 100%;
@@ -11,9 +10,10 @@
 		position: relative;
 		z-index: 20;
 	}
+
 	// circle behind profile picture
 	&::before {
-		content: "";
+		content: '';
 		display: inline-block;
 		position: absolute;
 		top: -35px;
