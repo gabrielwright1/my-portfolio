@@ -565,8 +565,8 @@ footer a {
             transform: translatey(0px);
   }
   50% {
-    -webkit-transform: translatey(-20px);
-            transform: translatey(-20px);
+    -webkit-transform: translatey(-10px);
+            transform: translatey(-10px);
   }
   100% {
     -webkit-transform: translatey(0px);
@@ -580,8 +580,8 @@ footer a {
             transform: translatey(0px);
   }
   50% {
-    -webkit-transform: translatey(-20px);
-            transform: translatey(-20px);
+    -webkit-transform: translatey(-10px);
+            transform: translatey(-10px);
   }
   100% {
     -webkit-transform: translatey(0px);
